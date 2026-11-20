@@ -1,0 +1,7 @@
+node_modules
+dist
+graphify-out/cache
+graphify-out/.graphify_*
+.obsidian/workspace.json
+bovedaportafolioweb/.obsidian/workspace.json
+*.tsbuildinfo
