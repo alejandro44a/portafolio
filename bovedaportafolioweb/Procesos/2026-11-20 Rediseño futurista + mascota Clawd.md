@@ -36,4 +36,10 @@ Volver a [[Inicio]]
 
 - [x] Publicar en GitHub Pages.
 - [ ] Añadir links reales (repo/demo) a cada proyecto en `src/data.ts`.
-- [ ] Instalar skills oficiales de Obsidian: `/plugin marketplace add obsidianmd/obsidian-skills` y `/plugin install obsidian@obsidian-skills`.
+- [x] Skills oficiales de Obsidian instaladas (plugin `obsidian@obsidian-skills`).
+
+## Iteración: carrusel 3D de proyectos (referencia lolawilde.com)
+
+- La sección [[src_sections_work_work|Work]] pasó de lista a **carrusel 3D en profundidad** con el componente `DepthCarousel` de React Bits.
+- `DepthCarousel` solo acepta imágenes, así que cada tarjeta se pinta en un `<canvas>` (imagen + degradado + número + título) y se pasa como data URL. Debajo, el botón *Ver proyecto* abre el modal existente.
+- Se retiró la vista previa que seguía al cursor.

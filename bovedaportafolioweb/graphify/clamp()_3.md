@@ -1,19 +1,18 @@
 ---
-source_file: "src/components/ClickSpark.tsx"
+source_file: "src/components/DepthCarousel.tsx"
 type: "code"
-community: "ClickSpark Effects"
-location: "L91"
+community: "Community 15"
+location: "L77"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/ClickSpark_Effects
+  - community/Community_15
 ---
 
 # clamp()
 
 ## Connections
-- [[ClickSpark]] - `calls` [EXTRACTED]
-- [[ClickSpark.tsx]] - `contains` [EXTRACTED]
-- [[smoothstep()_1]] - `calls` [EXTRACTED]
+- [[DepthCarousel()]] - `calls` [EXTRACTED]
+- [[DepthCarousel.tsx]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/ClickSpark_Effects
+#graphify/code #graphify/EXTRACTED #community/Community_15

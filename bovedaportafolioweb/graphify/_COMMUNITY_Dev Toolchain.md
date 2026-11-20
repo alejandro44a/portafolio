@@ -1,12 +1,10 @@
 ---
 type: community
-cohesion: 0.08
 members: 33
 ---
 
 # Dev Toolchain
 
-**Cohesion:** 0.08 - loosely connected
 **Members:** 33 nodes
 
 ## Members
@@ -53,9 +51,10 @@ SORT file.name ASC
 
 ## Connections to other communities
 - 7 edges to [[_COMMUNITY_Runtime Dependencies]]
-- 2 edges to [[_COMMUNITY_SplitText GSAP Reveal]]
 - 1 edge to [[_COMMUNITY_App Shell & Sections]]
+- 1 edge to [[_COMMUNITY_SplitText GSAP Reveal]]
+- 1 edge to [[_COMMUNITY_Community 15]]
 - 1 edge to [[_COMMUNITY_ScrollVelocity Marquee]]
 
 ## Top bridge nodes
-- [[package.json]] - degree 27, connects to 4 communities
+- [[package.json]] - degree 27, connects to 5 communities

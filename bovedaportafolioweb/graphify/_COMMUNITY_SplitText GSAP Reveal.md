@@ -1,13 +1,11 @@
 ---
 type: community
-cohesion: 0.14
-members: 15
+members: 13
 ---
 
 # SplitText GSAP Reveal
 
-**Cohesion:** 0.14 - loosely connected
-**Members:** 15 nodes
+**Members:** 13 nodes
 
 ## Members
 - [[@gsapreact]] - concept - package.json
@@ -22,8 +20,6 @@ members: 15
 - [[Spring]] - code - src/components/SplitText.tsx
 - [[fontsAreLoaded()]] - code - src/components/SplitText.tsx
 - [[getEffect()]] - code - src/components/SplitText.tsx
-- [[gsap]] - concept - package.json
-- [[gsap@3.15.1]] - code - package.json
 - [[waveEase()]] - code - src/components/SplitText.tsx
 
 ## Live Query (requires Dataview plugin)
@@ -35,12 +31,13 @@ SORT file.name ASC
 
 ## Connections to other communities
 - 6 edges to [[_COMMUNITY_App Shell & Sections]]
-- 2 edges to [[_COMMUNITY_Dev Toolchain]]
-- 2 edges to [[_COMMUNITY_Runtime Dependencies]]
+- 1 edge to [[_COMMUNITY_Dev Toolchain]]
+- 1 edge to [[_COMMUNITY_Community 15]]
+- 1 edge to [[_COMMUNITY_Runtime Dependencies]]
 
 ## Top bridge nodes
-- [[SplitText.tsx]] - degree 16, connects to 1 community
-- [[gsap]] - degree 3, connects to 1 community
-- [[@gsapreact]] - degree 3, connects to 1 community
+- [[SplitText.tsx]] - degree 16, connects to 2 communities
 - [[getEffect()]] - degree 3, connects to 1 community
-- [[gsap@3.15.1]] - degree 2, connects to 1 community
+- [[@gsapreact]] - degree 3, connects to 1 community
+- [[fontsAreLoaded()]] - degree 2, connects to 1 community
+- [[@gsapreact@2.1.2]] - degree 2, connects to 1 community

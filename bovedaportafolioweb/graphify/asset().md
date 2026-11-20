@@ -17,5 +17,6 @@ tags:
 - [[Work()]] - `calls` [EXTRACTED]
 - [[Work.tsx]] - `imports` [EXTRACTED]
 - [[hooks.ts]] - `contains` [EXTRACTED]
+- [[paintCard()]] - `calls` [EXTRACTED]
 
 #graphify/code #graphify/EXTRACTED #community/App_Shell__Sections

@@ -1,12 +1,10 @@
 ---
 type: community
-cohesion: 0.17
 members: 16
 ---
 
 # DecryptedText Scramble
 
-**Cohesion:** 0.17 - loosely connected
 **Members:** 16 nodes
 
 ## Members
@@ -35,9 +33,9 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 10 edges to [[_COMMUNITY_App Shell & Sections]]
+- 7 edges to [[_COMMUNITY_App Shell & Sections]]
 - 1 edge to [[_COMMUNITY_ScrollVelocity Marquee]]
 
 ## Top bridge nodes
-- [[DecryptedText.tsx]] - degree 20, connects to 2 communities
-- [[DecryptedText()]] - degree 12, connects to 1 community
+- [[DecryptedText.tsx]] - degree 19, connects to 2 communities
+- [[DecryptedText()]] - degree 10, connects to 1 community

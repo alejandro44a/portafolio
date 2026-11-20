@@ -1,12 +1,10 @@
 ---
 type: community
-cohesion: 0.27
 members: 11
 ---
 
 # LiquidChrome WebGL Shader
 
-**Cohesion:** 0.27 - loosely connected
 **Members:** 11 nodes
 
 ## Members

@@ -1,12 +1,10 @@
 ---
 type: community
-cohesion: 0.15
 members: 35
 ---
 
 # App Shell & Sections
 
-**Cohesion:** 0.15 - loosely connected
 **Members:** 35 nodes
 
 ## Members
@@ -23,7 +21,6 @@ members: 35
 - [[Hero.tsx]] - code - src/sections/Hero.tsx
 - [[Project]] - code - src/data.ts
 - [[Row()]] - code - src/sections/Experience.tsx
-- [[ScrollVelocity()]] - code - src/components/ScrollVelocity.tsx
 - [[Skills()]] - code - src/sections/Skills.tsx
 - [[Skills.tsx]] - code - src/sections/Skills.tsx
 - [[SplitText()]] - code - src/components/SplitText.tsx
@@ -38,6 +35,7 @@ members: 35
 - [[hooks.ts]] - code - src/hooks.ts
 - [[links]] - code - src/sections/TopBar.tsx
 - [[main.tsx]] - code - src/main.tsx
+- [[paintCard()]] - code - src/sections/Work.tsx
 - [[profile]] - code - src/data.ts
 - [[projects]] - code - src/data.ts
 - [[react]] - concept - package.json
@@ -54,7 +52,7 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 10 edges to [[_COMMUNITY_DecryptedText Scramble]]
+- 7 edges to [[_COMMUNITY_DecryptedText Scramble]]
 - 6 edges to [[_COMMUNITY_SplitText GSAP Reveal]]
 - 5 edges to [[_COMMUNITY_Runtime Dependencies]]
 - 4 edges to [[_COMMUNITY_ClickSpark Effects]]
@@ -64,11 +62,12 @@ SORT file.name ASC
 - 4 edges to [[_COMMUNITY_LiquidChrome WebGL Shader]]
 - 4 edges to [[_COMMUNITY_SpotlightCard Glow]]
 - 4 edges to [[_COMMUNITY_TiltedCard 3D Tilt]]
+- 4 edges to [[_COMMUNITY_Community 15]]
 - 1 edge to [[_COMMUNITY_Dev Toolchain]]
 
 ## Top bridge nodes
-- [[react]] - degree 17, connects to 11 communities
+- [[react]] - degree 18, connects to 12 communities
 - [[App.tsx]] - degree 23, connects to 3 communities
 - [[Hero.tsx]] - degree 12, connects to 3 communities
+- [[Work.tsx]] - degree 13, connects to 2 communities
 - [[App()]] - degree 12, connects to 2 communities
-- [[Work.tsx]] - degree 12, connects to 2 communities

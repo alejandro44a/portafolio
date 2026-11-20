@@ -1,12 +1,10 @@
 ---
 type: community
-cohesion: 0.33
 members: 10
 ---
 
 # Noise Grain Overlay
 
-**Cohesion:** 0.33 - loosely connected
 **Members:** 10 nodes
 
 ## Members

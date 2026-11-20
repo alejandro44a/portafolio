@@ -1,12 +1,10 @@
 ---
 type: community
-cohesion: 0.17
 members: 16
 ---
 
 # ClickSpark Effects
 
-**Cohesion:** 0.17 - loosely connected
 **Members:** 16 nodes
 
 ## Members
@@ -22,7 +20,7 @@ members: 16
 - [[Settings_3]] - code - src/components/ClickSpark.tsx
 - [[Spark]] - code - src/components/ClickSpark.tsx
 - [[channels()]] - code - src/components/ClickSpark.tsx
-- [[clamp()_3]] - code - src/components/ClickSpark.tsx
+- [[clamp()_4]] - code - src/components/ClickSpark.tsx
 - [[smoothstep()_1]] - code - src/components/ClickSpark.tsx
 - [[starPath()]] - code - src/components/ClickSpark.tsx
 - [[toColors()]] - code - src/components/ClickSpark.tsx

@@ -1,12 +1,10 @@
 ---
 type: community
-cohesion: 0.20
 members: 15
 ---
 
 # TiltedCard 3D Tilt
 
-**Cohesion:** 0.20 - loosely connected
 **Members:** 15 nodes
 
 ## Members
@@ -20,7 +18,7 @@ members: 15
 - [[TiltedCardLayer()]] - code - src/components/TiltedCard.tsx
 - [[TiltedCardLayerProps]] - code - src/components/TiltedCard.tsx
 - [[TiltedCardProps]] - code - src/components/TiltedCard.tsx
-- [[clamp()_4]] - code - src/components/TiltedCard.tsx
+- [[clamp()_5]] - code - src/components/TiltedCard.tsx
 - [[parseColor()_1]] - code - src/components/TiltedCard.tsx
 - [[smoother()]] - code - src/components/TiltedCard.tsx
 - [[step()]] - code - src/components/TiltedCard.tsx

@@ -16,6 +16,7 @@ tags:
 - [[ClaudePet.tsx]] - `imports_from` [EXTRACTED]
 - [[ClickSpark.tsx]] - `imports_from` [EXTRACTED]
 - [[DecryptedText.tsx]] - `imports_from` [EXTRACTED]
+- [[DepthCarousel.tsx]] - `imports_from` [EXTRACTED]
 - [[LiquidChrome.tsx]] - `imports_from` [EXTRACTED]
 - [[Magnet.tsx]] - `imports_from` [EXTRACTED]
 - [[Noise.tsx]] - `imports_from` [EXTRACTED]
