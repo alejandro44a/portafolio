@@ -23,8 +23,17 @@ Volver a [[Inicio]]
 > [!note] Años de proyectos
 > El v1 no tenía fechas por proyecto; no se inventaron. Se usan índices `./01`.
 
+## Publicación
+
+- PR [#1](https://github.com/alejandro44a/portafolio/pull/1) fusionado en `main` (commit `8b8b321`). Se sacaron del repo `node_modules/` y `dist/` que estaban versionados.
+- `npm run deploy` → rama `gh-pages` → en vivo: https://alejandro44a.github.io/portafolio/
+
+> [!warning] Credenciales de git
+> El administrador de credenciales de Windows tiene guardada la cuenta `alejandroctr23`, que no tiene permiso en este repo. Para hacer push/deploy usa la sesión de `gh` (cuenta `alejandro44a`):
+> `git -c credential.helper= -c "credential.helper=!gh auth git-credential" push`
+
 ## Pendientes
 
-- [ ] Publicar: `npm run deploy` (GitHub Pages) o subir al repo `portafolio`.
+- [x] Publicar en GitHub Pages.
 - [ ] Añadir links reales (repo/demo) a cada proyecto en `src/data.ts`.
 - [ ] Instalar skills oficiales de Obsidian: `/plugin marketplace add obsidianmd/obsidian-skills` y `/plugin install obsidian@obsidian-skills`.
