@@ -1,12 +1,12 @@
 ---
 source_file: "package.json"
 type: "concept"
-community: "Runtime Dependencies"
+community: "Dev Toolchain"
 location: "L22"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Runtime_Dependencies
+  - community/Dev_Toolchain
 ---
 
 # three
@@ -16,4 +16,4 @@ tags:
 - [[package.json]] - `imports` [EXTRACTED]
 - [[three@0.187.0]] - `declares` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Runtime_Dependencies
+#graphify/concept #graphify/EXTRACTED #community/Dev_Toolchain

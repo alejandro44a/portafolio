@@ -1,17 +1,15 @@
 ---
 type: community
-members: 20
+members: 17
 ---
 
 # Magnet Hover Physics
 
-**Members:** 20 nodes
+**Members:** 17 nodes
 
 ## Members
 - [[DEFAULT_SPRING]] - code - src/components/Magnet.tsx
 - [[Entry]] - code - src/components/Magnet.tsx
-- [[Footer()]] - code - src/sections/Footer.tsx
-- [[Footer.tsx]] - code - src/sections/Footer.tsx
 - [[Magnet()]] - code - src/components/Magnet.tsx
 - [[Magnet.tsx]] - code - src/components/Magnet.tsx
 - [[MagnetAxis]] - code - src/components/Magnet.tsx
@@ -23,7 +21,6 @@ members: 20
 - [[arbitrate()]] - code - src/components/Magnet.tsx
 - [[attach()]] - code - src/components/Magnet.tsx
 - [[field]] - code - src/components/Magnet.tsx
-- [[profile]] - code - src/data.ts
 - [[reach()]] - code - src/components/Magnet.tsx
 - [[registry]] - code - src/components/Magnet.tsx
 - [[smoothstep()]] - code - src/components/Magnet.tsx
@@ -37,10 +34,8 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 11 edges to [[_COMMUNITY_App Shell & Sections]]
+- 4 edges to [[_COMMUNITY_App Shell & Sections]]
 
 ## Top bridge nodes
 - [[Magnet.tsx]] - degree 17, connects to 1 community
-- [[Footer.tsx]] - degree 8, connects to 1 community
-- [[Footer()]] - degree 5, connects to 1 community
-- [[profile]] - degree 4, connects to 1 community
+- [[Magnet()]] - degree 8, connects to 1 community

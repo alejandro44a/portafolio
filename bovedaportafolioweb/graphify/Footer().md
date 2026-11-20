@@ -1,12 +1,12 @@
 ---
 source_file: "src/sections/Footer.tsx"
 type: "code"
-community: "Magnet Hover Physics"
+community: "App Shell & Sections"
 location: "L5"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Magnet_Hover_Physics
+  - community/App_Shell__Sections
 ---
 
 # Footer()
@@ -18,4 +18,4 @@ tags:
 - [[Magnet()]] - `calls` [EXTRACTED]
 - [[useClock()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Magnet_Hover_Physics
+#graphify/code #graphify/EXTRACTED #community/App_Shell__Sections

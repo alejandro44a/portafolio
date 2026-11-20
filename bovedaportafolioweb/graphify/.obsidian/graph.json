@@ -15,13 +15,6 @@
       }
     },
     {
-      "query": "tag:#community/Runtime_Dependencies",
-      "color": {
-        "a": 1,
-        "rgb": 14767961
-      }
-    },
-    {
       "query": "tag:#community/shadcn__React_Bits_Config",
       "color": {
         "a": 1,
@@ -50,13 +43,6 @@
       }
     },
     {
-      "query": "tag:#community/SplitText_GSAP_Reveal",
-      "color": {
-        "a": 1,
-        "rgb": 16752039
-      }
-    },
-    {
       "query": "tag:#community/TiltedCard_3D_Tilt",
       "color": {
         "a": 1,
@@ -68,13 +54,6 @@
       "color": {
         "a": 1,
         "rgb": 12234924
-      }
-    },
-    {
-      "query": "tag:#community/ScrollVelocity_Marquee",
-      "color": {
-        "a": 1,
-        "rgb": 5142951
       }
     },
     {

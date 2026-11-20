@@ -13,7 +13,6 @@ tags:
 
 ## Connections
 - [[Skills()]] - `calls` [EXTRACTED]
-- [[Skills.tsx]] - `imports` [EXTRACTED]
 - [[SpotlightCard.tsx]] - `contains` [EXTRACTED]
 - [[clamp()_2]] - `calls` [EXTRACTED]
 - [[falloff()]] - `calls` [EXTRACTED]

@@ -14,7 +14,6 @@ tags:
 ## Connections
 - [[ProjectCarousel.tsx]] - `contains` [EXTRACTED]
 - [[Work()]] - `calls` [EXTRACTED]
-- [[Work.tsx]] - `imports` [EXTRACTED]
 - [[asset()]] - `calls` [EXTRACTED]
 - [[useCardSize()]] - `calls` [EXTRACTED]
 

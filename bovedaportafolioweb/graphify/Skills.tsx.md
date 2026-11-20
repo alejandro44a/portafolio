@@ -13,8 +13,9 @@ tags:
 
 ## Connections
 - [[App.tsx]] - `imports_from` [EXTRACTED]
+- [[SectionTitle()]] - `imports` [EXTRACTED]
+- [[SectionTitle.tsx]] - `imports_from` [EXTRACTED]
 - [[Skills()]] - `contains` [EXTRACTED]
-- [[SpotlightCard()]] - `imports` [EXTRACTED]
 - [[SpotlightCard.tsx]] - `imports_from` [EXTRACTED]
 - [[data.ts]] - `imports_from` [EXTRACTED]
 - [[skills]] - `imports` [EXTRACTED]

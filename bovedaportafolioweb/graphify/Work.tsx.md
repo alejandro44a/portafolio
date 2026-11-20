@@ -14,8 +14,9 @@ tags:
 ## Connections
 - [[App.tsx]] - `imports_from` [EXTRACTED]
 - [[Project]] - `imports` [EXTRACTED]
-- [[ProjectCarousel()]] - `imports` [EXTRACTED]
 - [[ProjectCarousel.tsx]] - `imports_from` [EXTRACTED]
+- [[SectionTitle()]] - `imports` [EXTRACTED]
+- [[SectionTitle.tsx]] - `imports_from` [EXTRACTED]
 - [[TiltedCard.tsx]] - `imports_from` [EXTRACTED]
 - [[Work()]] - `contains` [EXTRACTED]
 - [[asset()]] - `imports` [EXTRACTED]

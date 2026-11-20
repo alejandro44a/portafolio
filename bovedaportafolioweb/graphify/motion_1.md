@@ -1,12 +1,12 @@
 ---
 source_file: "package.json"
 type: "concept"
-community: "ScrollVelocity Marquee"
+community: "Dev Toolchain"
 location: "L18"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/ScrollVelocity_Marquee
+  - community/Dev_Toolchain
 ---
 
 # motion
@@ -17,4 +17,4 @@ tags:
 - [[motion@12.43.0]] - `declares` [EXTRACTED]
 - [[package.json]] - `imports` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/ScrollVelocity_Marquee
+#graphify/concept #graphify/EXTRACTED #community/Dev_Toolchain

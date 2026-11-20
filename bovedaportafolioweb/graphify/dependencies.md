@@ -1,12 +1,12 @@
 ---
 source_file: "package.json"
 type: "code"
-community: "Runtime Dependencies"
+community: "Dev Toolchain"
 location: "L12"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Runtime_Dependencies
+  - community/Dev_Toolchain
 ---
 
 # dependencies
@@ -24,4 +24,4 @@ tags:
 - [[tailwind-merge@3.7.1]] - `contains` [EXTRACTED]
 - [[three@0.187.0]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Runtime_Dependencies
+#graphify/code #graphify/EXTRACTED #community/Dev_Toolchain

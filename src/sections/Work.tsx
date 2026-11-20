@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import ProjectCarousel from '@/components/ProjectCarousel';
+import SectionTitle from '@/components/SectionTitle';
 import TiltedCard from '@/components/TiltedCard';
 import { projects, type Project } from '@/data';
 import { asset } from '@/hooks';
@@ -21,13 +22,7 @@ export default function Work() {
       {/* warm glow under the drum, like the reference */}
       <div aria-hidden className="pointer-events-none absolute inset-x-0 bottom-0 h-2/3 bg-[radial-gradient(60%_55%_at_50%_70%,rgba(217,119,87,.16),transparent_70%)]" />
 
-      <div className="relative flex items-start justify-between gap-6">
-        <h2 className="display text-[19vw] leading-[0.8] sm:text-[11vw]">
-          Proyec<span className="italic">t</span>os
-          <sup className="ml-2 align-top font-mono text-[11px] tracking-normal text-bone/50 sm:text-xs">({String(projects.length).padStart(2, '0')})</sup>
-        </h2>
-        <p className="hidden max-w-[220px] pt-3 text-right text-bone/60 md:block">Apps, juegos e IA — construidos de principio a fin.</p>
-      </div>
+      <SectionTitle text="Proyectos" italic={5} count={projects.length} note="Apps, juegos e IA — construidos de principio a fin." />
 
       <div className="relative mt-10 sm:mt-6">
         <ProjectCarousel projects={projects} onOpen={setOpen} />

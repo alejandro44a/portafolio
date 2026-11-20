@@ -1,12 +1,12 @@
 ---
 source_file: "src/components/SplitText.tsx"
 type: "code"
-community: "SplitText GSAP Reveal"
+community: "Community 7"
 location: "L53"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/SplitText_GSAP_Reveal
+  - community/Community_7
 ---
 
 # waveEase()
@@ -15,4 +15,4 @@ tags:
 - [[SplitText.tsx]] - `contains` [EXTRACTED]
 - [[getEffect()]] - `indirect_call` [INFERRED]
 
-#graphify/code #graphify/EXTRACTED #community/SplitText_GSAP_Reveal
+#graphify/code #graphify/EXTRACTED #community/Community_7

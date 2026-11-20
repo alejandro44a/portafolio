@@ -1,12 +1,12 @@
 ---
 source_file: "package.json"
 type: "concept"
-community: "SplitText GSAP Reveal"
+community: "Dev Toolchain"
 location: "L16"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/SplitText_GSAP_Reveal
+  - community/Dev_Toolchain
 ---
 
 # gsap
@@ -16,4 +16,4 @@ tags:
 - [[gsap@3.15.1]] - `declares` [EXTRACTED]
 - [[package.json]] - `imports` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/SplitText_GSAP_Reveal
+#graphify/concept #graphify/EXTRACTED #community/Dev_Toolchain

@@ -1,12 +1,12 @@
 ---
 source_file: "package.json"
 type: "concept"
-community: "Runtime Dependencies"
+community: "Dev Toolchain"
 location: "L17"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Runtime_Dependencies
+  - community/Dev_Toolchain
 ---
 
 # lucide-react
@@ -15,4 +15,4 @@ tags:
 - [[lucide-react@1.77.0]] - `declares` [EXTRACTED]
 - [[package.json]] - `imports` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Runtime_Dependencies
+#graphify/concept #graphify/EXTRACTED #community/Dev_Toolchain

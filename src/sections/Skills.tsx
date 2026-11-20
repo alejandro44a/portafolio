@@ -1,12 +1,12 @@
+import SectionTitle from '@/components/SectionTitle';
 import SpotlightCard from '@/components/SpotlightCard';
 import { skills } from '@/data';
 
 export default function Skills() {
   return (
     <section id="skills" className="px-4 py-24 sm:px-6">
-      <div className="mb-10 flex items-end justify-between border-b border-line pb-3 text-bone/60">
-        <span>Capacidades</span>
-        <span>ES nativo · EN intermedio</span>
+      <div className="mb-10">
+        <SectionTitle text="Capacidades" italic={6} count={skills.length} note="Español nativo · Inglés intermedio" />
       </div>
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
         {skills.map((s, i) => (

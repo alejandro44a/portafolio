@@ -1,12 +1,12 @@
 ---
 source_file: "package.json"
 type: "concept"
-community: "Runtime Dependencies"
+community: "Dev Toolchain"
 location: "L14"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Runtime_Dependencies
+  - community/Dev_Toolchain
 ---
 
 # @react-three/fiber
@@ -16,4 +16,4 @@ tags:
 - [[ClaudePet.tsx]] - `imports_from` [EXTRACTED]
 - [[package.json]] - `imports` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Runtime_Dependencies
+#graphify/concept #graphify/EXTRACTED #community/Dev_Toolchain

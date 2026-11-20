@@ -53,3 +53,8 @@ Volver a [[Inicio]]
 
 > [!tip] Siguiente paso sugerido
 > Añadir más proyectos (voleylab, omegastudios-web, predictor-futbol, cotizaciones CTR…) con capturas para que el cilindro no repita tarjetas.
+
+## Iteración 3: títulos de sección unificados
+
+- Nuevo [[src_components_sectiontitle|SectionTitle]]: serif en mayúsculas, una letra en cursiva, contador `(NN)` y una nota a la derecha. Mide `7.5vw` en escritorio (108 px a 1440) y `15vw` en móvil.
+- Se usa en **Proyectos** (más chico que antes), **Trayectoria** y **Capacidades**. "Formación" sigue como etiqueta pequeña dentro de Trayectoria.

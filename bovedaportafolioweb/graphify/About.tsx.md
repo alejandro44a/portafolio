@@ -1,12 +1,12 @@
 ---
 source_file: "src/sections/About.tsx"
 type: "code"
-community: "App Shell & Sections"
+community: "Community 7"
 location: "L1"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/App_Shell__Sections
+  - community/Community_7
 ---
 
 # About.tsx
@@ -23,4 +23,4 @@ tags:
 - [[hooks.ts]] - `imports_from` [EXTRACTED]
 - [[stack]] - `imports` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/App_Shell__Sections
+#graphify/code #graphify/EXTRACTED #community/Community_7

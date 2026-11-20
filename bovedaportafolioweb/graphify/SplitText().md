@@ -1,12 +1,12 @@
 ---
 source_file: "src/components/SplitText.tsx"
 type: "code"
-community: "App Shell & Sections"
+community: "Community 7"
 location: "L88"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/App_Shell__Sections
+  - community/Community_7
 ---
 
 # SplitText()
@@ -20,4 +20,4 @@ tags:
 - [[fontsAreLoaded()]] - `indirect_call` [INFERRED]
 - [[getEffect()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/App_Shell__Sections
+#graphify/code #graphify/EXTRACTED #community/Community_7

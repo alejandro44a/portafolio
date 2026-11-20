@@ -1,12 +1,12 @@
 ---
 source_file: "package.json"
 type: "code"
-community: "ScrollVelocity Marquee"
+community: "Dev Toolchain"
 location: "L18"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/ScrollVelocity_Marquee
+  - community/Dev_Toolchain
 ---
 
 # motion@^12.43.0
@@ -15,4 +15,4 @@ tags:
 - [[dependencies]] - `contains` [EXTRACTED]
 - [[motion_1]] - `declares` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/ScrollVelocity_Marquee
+#graphify/code #graphify/EXTRACTED #community/Dev_Toolchain

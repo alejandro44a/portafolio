@@ -1,12 +1,12 @@
 ---
 source_file: "package.json"
 type: "code"
-community: "SplitText GSAP Reveal"
+community: "Dev Toolchain"
 location: "L13"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/SplitText_GSAP_Reveal
+  - community/Dev_Toolchain
 ---
 
 # @gsap/react@^2.1.2
@@ -15,4 +15,4 @@ tags:
 - [[@gsapreact]] - `declares` [EXTRACTED]
 - [[dependencies]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/SplitText_GSAP_Reveal
+#graphify/code #graphify/EXTRACTED #community/Dev_Toolchain

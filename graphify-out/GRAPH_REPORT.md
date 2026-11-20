@@ -1,32 +1,31 @@
 # Graph Report - portafoliowebalejandroabrego  (2026-11-20)
 
 ## Corpus Check
-- 28 files · ~22,300 words
+- 29 files · ~22,383 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 3 file(s) not represented in the graph (top: (none) 2, .css 1)
 
 ## Summary
-- 266 nodes · 435 edges · 16 communities
+- 268 nodes · 443 edges · 15 communities
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 5 edges (avg confidence: 0.83)
 - Token cost: 68,091 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `e6660138`
+- Built from commit: `c709a22e`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
 ## Community Hubs (Navigation)
 - App Shell & Sections
 - Dev Toolchain
-- Runtime Dependencies
+- ClaudePet.tsx
 - shadcn & React Bits Config
 - Magnet Hover Physics
 - ClickSpark Effects
 - DecryptedText Scramble
-- SplitText GSAP Reveal
+- SplitText.tsx
 - TiltedCard 3D Tilt
 - TypeScript Config
-- ScrollVelocity Marquee
 - LiquidChrome WebGL Shader
 - Noise Grain Overlay
 - SpotlightCard Glow
@@ -40,22 +39,22 @@
 4. `DecryptedText()` - 10 edges
 5. `Magnet()` - 8 edges
 6. `ClickSpark` - 8 edges
-7. `SplitText()` - 7 edges
-8. `asset()` - 7 edges
-9. `useClock()` - 7 edges
-10. `Hero()` - 7 edges
+7. `SectionTitle()` - 7 edges
+8. `Work()` - 7 edges
+9. `SplitText()` - 7 edges
+10. `asset()` - 7 edges
 
 ## Surprising Connections (you probably didn't know these)
+- `Skills()` --calls--> `SpotlightCard()`  [EXTRACTED]
+  src/sections/Skills.tsx → src/components/SpotlightCard.tsx
 - `Work()` --calls--> `TiltedCard()`  [EXTRACTED]
   src/sections/Work.tsx → src/components/TiltedCard.tsx
 - `App()` --calls--> `ClickSpark`  [EXTRACTED]
   src/App.tsx → src/components/ClickSpark.tsx
 - `App()` --calls--> `Noise()`  [EXTRACTED]
   src/App.tsx → src/components/Noise.tsx
-- `App()` --calls--> `Footer()`  [EXTRACTED]
-  src/App.tsx → src/sections/Footer.tsx
-- `Footer()` --calls--> `useClock()`  [EXTRACTED]
-  src/sections/Footer.tsx → src/hooks.ts
+- `App()` --calls--> `About()`  [EXTRACTED]
+  src/App.tsx → src/sections/About.tsx
 
 ## Import Cycles
 - None detected.
@@ -63,27 +62,27 @@
 ## Hyperedges (group relationships)
 - **Head resources: Google Fonts stack** — index_portfolio_page, index_google_fonts, index_instrument_serif_font, index_jetbrains_mono_font [INFERRED 0.85]
 
-## Communities (16 total, 0 thin omitted)
+## Communities (15 total, 0 thin omitted)
 
 ### Community 0 - "App Shell & Sections"
 Cohesion: 0.14
-Nodes (24): react, App(), ClaudePet, ProjectCarousel(), Props, useCardSize(), ScrollVelocity(), SplitText() (+16 more)
+Nodes (24): react, App(), ClaudePet, ProjectCarousel(), Props, useCardSize(), SectionTitle(), education (+16 more)
 
 ### Community 1 - "Dev Toolchain"
-Cohesion: 0.08
-Nodes (30): devDependencies, gh-pages@^6.3.0, tailwindcss@^4.3.5, @tailwindcss/vite@^4.3.5, @types/node@^26.6.6, @types/react@^19.3.0, @types/react-dom@^19.3.0, @types/three@^0.187.0 (+22 more)
+Cohesion: 0.05
+Nodes (50): dependencies, clsx@^2.1.1, gsap@^3.15.1, @gsap/react@^2.1.2, lucide-react@^1.77.0, motion@^12.43.0, react@^19.3.1, react-dom@^19.3.1 (+42 more)
 
-### Community 2 - "Runtime Dependencies"
-Cohesion: 0.09
-Nodes (25): dependencies, clsx@^2.1.1, lucide-react@^1.77.0, react@^19.3.1, react-dom@^19.3.1, @react-three/fiber@^9.8.2, tailwind-merge@^3.7.1, three@^0.187.0 (+17 more)
+### Community 2 - "ClaudePet.tsx"
+Cohesion: 0.24
+Nodes (11): bodyGeometry, ClaudePet(), Clawd(), CLICK_LINES, Mode, now(), PetState, pick() (+3 more)
 
 ### Community 3 - "shadcn & React Bits Config"
 Cohesion: 0.11
 Nodes (17): aliases, components, hooks, lib, ui, utils, registries, @react-bits (+9 more)
 
 ### Community 4 - "Magnet Hover Physics"
-Cohesion: 0.14
-Nodes (17): arbitrate(), attach(), DEFAULT_SPRING, Entry, field, Magnet(), MagnetAxis, MagnetProps (+9 more)
+Cohesion: 0.16
+Nodes (15): arbitrate(), attach(), DEFAULT_SPRING, Entry, field, Magnet(), MagnetAxis, MagnetProps (+7 more)
 
 ### Community 5 - "ClickSpark Effects"
 Cohesion: 0.17
@@ -93,9 +92,9 @@ Nodes (15): Burst, channels(), clamp(), ClickSpark, ClickSparkEasing, ClickSpark
 Cohesion: 0.17
 Nodes (15): advance(), DecryptedText(), DecryptedTextProps, Engine, flipFrames(), FontMetrics, Frame, glyphWidths (+7 more)
 
-### Community 7 - "SplitText GSAP Reveal"
-Cohesion: 0.14
-Nodes (14): gsap@^3.15.1, @gsap/react@^2.1.2, gsap, @gsap/react, DEFAULT_FROM, DEFAULT_TO, fontsAreLoaded(), getEffect() (+6 more)
+### Community 7 - "SplitText.tsx"
+Cohesion: 0.11
+Nodes (21): FADE_STEPS, OUTLINE_STYLE, ScrollVelocity(), ScrollVelocityProps, useElementWidth(), VelocityMapping, VelocityText(), VelocityTextProps (+13 more)
 
 ### Community 8 - "TiltedCard 3D Tilt"
 Cohesion: 0.20
@@ -104,10 +103,6 @@ Nodes (13): Axis, clamp(), EDGE_STYLE, GLARE_STYLE, OrientationRequest, parseCol
 ### Community 9 - "TypeScript Config"
 Cohesion: 0.13
 Nodes (14): compilerOptions, allowImportingTsExtensions, isolatedModules, jsx, lib, module, moduleResolution, noEmit (+6 more)
-
-### Community 10 - "ScrollVelocity Marquee"
-Cohesion: 0.20
-Nodes (10): motion@^12.43.0, motion, FADE_STEPS, OUTLINE_STYLE, ScrollVelocityProps, useElementWidth(), VelocityMapping, VelocityText() (+2 more)
 
 ### Community 11 - "LiquidChrome WebGL Shader"
 Cohesion: 0.27
@@ -136,17 +131,17 @@ Nodes (3): Bóveda de Obsidian (`bovedaportafolioweb/`), Memoria en grafos (grap
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `react` connect `App Shell & Sections` to `Dev Toolchain`, `Runtime Dependencies`, `Magnet Hover Physics`, `ClickSpark Effects`, `DecryptedText Scramble`, `SplitText GSAP Reveal`, `TiltedCard 3D Tilt`, `ScrollVelocity Marquee`, `LiquidChrome WebGL Shader`, `Noise Grain Overlay`, `SpotlightCard Glow`?**
+- **Why does `react` connect `App Shell & Sections` to `Dev Toolchain`, `ClaudePet.tsx`, `Magnet Hover Physics`, `ClickSpark Effects`, `DecryptedText Scramble`, `SplitText.tsx`, `TiltedCard 3D Tilt`, `LiquidChrome WebGL Shader`, `Noise Grain Overlay`, `SpotlightCard Glow`?**
   _High betweenness centrality (0.434) - this node is a cross-community bridge._
 - **What connects `UANL (Universidad Autonoma de Nuevo Leon)` to the rest of the system?**
   _1 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `App Shell & Sections` be split into smaller, more focused modules?**
-  _Cohesion score 0.14126984126984127 - nodes in this community are weakly interconnected._
-- **Why does `dependencies` connect `Runtime Dependencies` to `Dev Toolchain`, `ScrollVelocity Marquee`, `SplitText GSAP Reveal`?**
-  _High betweenness centrality (0.028) - this node is a cross-community bridge._
+  _Cohesion score 0.14264264264264265 - nodes in this community are weakly interconnected._
 - **Should `Dev Toolchain` be split into smaller, more focused modules?**
-  _Cohesion score 0.08333333333333333 - nodes in this community are weakly interconnected._
-- **Should `Runtime Dependencies` be split into smaller, more focused modules?**
-  _Cohesion score 0.08994708994708994 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.05117845117845118 - nodes in this community are weakly interconnected._
 - **Should `shadcn & React Bits Config` be split into smaller, more focused modules?**
   _Cohesion score 0.1111111111111111 - nodes in this community are weakly interconnected._
+- **Should `SplitText.tsx` be split into smaller, more focused modules?**
+  _Cohesion score 0.11333333333333333 - nodes in this community are weakly interconnected._
+- **Should `TypeScript Config` be split into smaller, more focused modules?**
+  _Cohesion score 0.13333333333333333 - nodes in this community are weakly interconnected._

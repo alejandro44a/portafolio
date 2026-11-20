@@ -2,7 +2,7 @@
 source_file: "src/sections/Skills.tsx"
 type: "code"
 community: "App Shell & Sections"
-location: "L4"
+location: "L5"
 tags:
   - graphify/code
   - graphify/EXTRACTED
@@ -14,6 +14,7 @@ tags:
 ## Connections
 - [[App()]] - `calls` [EXTRACTED]
 - [[App.tsx]] - `imports` [EXTRACTED]
+- [[SectionTitle()]] - `calls` [EXTRACTED]
 - [[Skills.tsx]] - `contains` [EXTRACTED]
 - [[SpotlightCard()]] - `calls` [EXTRACTED]
 

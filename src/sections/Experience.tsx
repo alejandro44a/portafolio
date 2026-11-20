@@ -1,3 +1,4 @@
+import SectionTitle from '@/components/SectionTitle';
 import { education, experience } from '@/data';
 
 function Row({ left, title, sub, right, points }: { left: string; title: string; sub: string; right: string; points?: string[] }) {
@@ -25,8 +26,8 @@ function Row({ left, title, sub, right, points }: { left: string; title: string;
 export default function Experience() {
   return (
     <section id="experience" className="px-4 py-24 sm:px-6">
-      <p className="border-b border-line pb-3 text-bone/60">Trayectoria</p>
-      <ul>
+      <SectionTitle text="Trayectoria" italic={5} count={experience.length} note="Experiencia laboral — equipo, clientes y operaciones." />
+      <ul className="mt-10 border-t border-line">
         {experience.map((e, i) => (
           <Row key={e.company} left={`./0${i + 1}`} title={e.company} sub={e.role} right={e.period} points={e.points} />
         ))}

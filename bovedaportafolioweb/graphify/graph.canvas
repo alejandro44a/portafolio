@@ -6,33 +6,15 @@
       "label": "App Shell & Sections",
       "x": 0,
       "y": 0,
-      "width": 1320,
+      "width": 1540,
       "height": 720,
       "color": "1"
-    },
-    {
-      "id": "n_src_sections_about_about",
-      "type": "file",
-      "file": "About().md",
-      "x": 20,
-      "y": 80,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_src_sections_about",
-      "type": "file",
-      "file": "About.tsx.md",
-      "x": 220,
-      "y": 80,
-      "width": 180,
-      "height": 60
     },
     {
       "id": "n_src_app_app",
       "type": "file",
       "file": "App().md",
-      "x": 420,
+      "x": 20,
       "y": 80,
       "width": 180,
       "height": 60
@@ -41,7 +23,7 @@
       "id": "n_src_app",
       "type": "file",
       "file": "App.tsx.md",
-      "x": 620,
+      "x": 220,
       "y": 80,
       "width": 180,
       "height": 60
@@ -50,7 +32,7 @@
       "id": "n_src_app_claudepet",
       "type": "file",
       "file": "ClaudePet.md",
-      "x": 820,
+      "x": 420,
       "y": 80,
       "width": 180,
       "height": 60
@@ -59,7 +41,7 @@
       "id": "n_src_sections_experience_experience",
       "type": "file",
       "file": "Experience().md",
-      "x": 1020,
+      "x": 620,
       "y": 80,
       "width": 180,
       "height": 60
@@ -68,8 +50,26 @@
       "id": "n_src_sections_experience",
       "type": "file",
       "file": "Experience.tsx.md",
-      "x": 20,
-      "y": 160,
+      "x": 820,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_sections_footer_footer",
+      "type": "file",
+      "file": "Footer().md",
+      "x": 1020,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_sections_footer",
+      "type": "file",
+      "file": "Footer.tsx.md",
+      "x": 1220,
+      "y": 80,
       "width": 180,
       "height": 60
     },
@@ -77,7 +77,7 @@
       "id": "n_src_sections_hero_hero",
       "type": "file",
       "file": "Hero().md",
-      "x": 220,
+      "x": 20,
       "y": 160,
       "width": 180,
       "height": 60
@@ -86,7 +86,7 @@
       "id": "n_src_sections_hero",
       "type": "file",
       "file": "Hero.tsx.md",
-      "x": 420,
+      "x": 220,
       "y": 160,
       "width": 180,
       "height": 60
@@ -95,7 +95,7 @@
       "id": "n_src_data_project",
       "type": "file",
       "file": "Project.md",
-      "x": 620,
+      "x": 420,
       "y": 160,
       "width": 180,
       "height": 60
@@ -104,7 +104,7 @@
       "id": "n_src_components_projectcarousel_projectcarousel",
       "type": "file",
       "file": "ProjectCarousel().md",
-      "x": 820,
+      "x": 620,
       "y": 160,
       "width": 180,
       "height": 60
@@ -113,7 +113,7 @@
       "id": "n_src_components_projectcarousel",
       "type": "file",
       "file": "ProjectCarousel.tsx.md",
-      "x": 1020,
+      "x": 820,
       "y": 160,
       "width": 180,
       "height": 60
@@ -122,8 +122,8 @@
       "id": "n_src_components_projectcarousel_props",
       "type": "file",
       "file": "Props.md",
-      "x": 20,
-      "y": 240,
+      "x": 1020,
+      "y": 160,
       "width": 180,
       "height": 60
     },
@@ -131,16 +131,25 @@
       "id": "n_src_sections_experience_row",
       "type": "file",
       "file": "Row().md",
-      "x": 220,
+      "x": 1220,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_components_sectiontitle_sectiontitle",
+      "type": "file",
+      "file": "SectionTitle().md",
+      "x": 20,
       "y": 240,
       "width": 180,
       "height": 60
     },
     {
-      "id": "n_src_components_scrollvelocity_scrollvelocity",
+      "id": "n_src_components_sectiontitle",
       "type": "file",
-      "file": "ScrollVelocity().md",
-      "x": 420,
+      "file": "SectionTitle.tsx.md",
+      "x": 220,
       "y": 240,
       "width": 180,
       "height": 60
@@ -149,7 +158,7 @@
       "id": "n_src_sections_skills_skills",
       "type": "file",
       "file": "Skills().md",
-      "x": 620,
+      "x": 420,
       "y": 240,
       "width": 180,
       "height": 60
@@ -158,16 +167,7 @@
       "id": "n_src_sections_skills",
       "type": "file",
       "file": "Skills.tsx.md",
-      "x": 820,
-      "y": 240,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_src_components_splittext_splittext",
-      "type": "file",
-      "file": "SplitText().md",
-      "x": 1020,
+      "x": 620,
       "y": 240,
       "width": 180,
       "height": 60
@@ -176,8 +176,8 @@
       "id": "n_src_sections_topbar_topbar",
       "type": "file",
       "file": "TopBar().md",
-      "x": 20,
-      "y": 320,
+      "x": 820,
+      "y": 240,
       "width": 180,
       "height": 60
     },
@@ -185,8 +185,8 @@
       "id": "n_src_sections_topbar",
       "type": "file",
       "file": "TopBar.tsx.md",
-      "x": 220,
-      "y": 320,
+      "x": 1020,
+      "y": 240,
       "width": 180,
       "height": 60
     },
@@ -194,8 +194,8 @@
       "id": "n_src_sections_work_work",
       "type": "file",
       "file": "Work().md",
-      "x": 420,
-      "y": 320,
+      "x": 1220,
+      "y": 240,
       "width": 180,
       "height": 60
     },
@@ -203,7 +203,7 @@
       "id": "n_src_sections_work",
       "type": "file",
       "file": "Work.tsx.md",
-      "x": 620,
+      "x": 20,
       "y": 320,
       "width": 180,
       "height": 60
@@ -212,7 +212,7 @@
       "id": "n_src_hooks_asset",
       "type": "file",
       "file": "asset().md",
-      "x": 820,
+      "x": 220,
       "y": 320,
       "width": 180,
       "height": 60
@@ -221,7 +221,7 @@
       "id": "n_src_data",
       "type": "file",
       "file": "data.ts.md",
-      "x": 1020,
+      "x": 420,
       "y": 320,
       "width": 180,
       "height": 60
@@ -230,8 +230,8 @@
       "id": "n_src_data_education",
       "type": "file",
       "file": "education.md",
-      "x": 20,
-      "y": 400,
+      "x": 620,
+      "y": 320,
       "width": 180,
       "height": 60
     },
@@ -239,8 +239,8 @@
       "id": "n_src_data_experience",
       "type": "file",
       "file": "experience.md",
-      "x": 220,
-      "y": 400,
+      "x": 820,
+      "y": 320,
       "width": 180,
       "height": 60
     },
@@ -248,8 +248,8 @@
       "id": "n_src_hooks",
       "type": "file",
       "file": "hooks.ts.md",
-      "x": 420,
-      "y": 400,
+      "x": 1020,
+      "y": 320,
       "width": 180,
       "height": 60
     },
@@ -257,8 +257,8 @@
       "id": "n_src_sections_topbar_links",
       "type": "file",
       "file": "links.md",
-      "x": 620,
-      "y": 400,
+      "x": 1220,
+      "y": 320,
       "width": 180,
       "height": 60
     },
@@ -266,7 +266,16 @@
       "id": "n_src_main",
       "type": "file",
       "file": "main.tsx.md",
-      "x": 820,
+      "x": 20,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_data_profile",
+      "type": "file",
+      "file": "profile.md",
+      "x": 220,
       "y": 400,
       "width": 180,
       "height": 60
@@ -275,7 +284,7 @@
       "id": "n_src_data_projects",
       "type": "file",
       "file": "projects.md",
-      "x": 1020,
+      "x": 420,
       "y": 400,
       "width": 180,
       "height": 60
@@ -284,8 +293,8 @@
       "id": "n_ref_react",
       "type": "file",
       "file": "react.md",
-      "x": 20,
-      "y": 480,
+      "x": 620,
+      "y": 400,
       "width": 180,
       "height": 60
     },
@@ -293,8 +302,8 @@
       "id": "n_src_data_skills",
       "type": "file",
       "file": "skills.md",
-      "x": 220,
-      "y": 480,
+      "x": 820,
+      "y": 400,
       "width": 180,
       "height": 60
     },
@@ -302,8 +311,8 @@
       "id": "n_src_index",
       "type": "file",
       "file": "src_index.md",
-      "x": 420,
-      "y": 480,
+      "x": 1020,
+      "y": 400,
       "width": 180,
       "height": 60
     },
@@ -311,8 +320,8 @@
       "id": "n_src_data_stack",
       "type": "file",
       "file": "stack.md",
-      "x": 620,
-      "y": 480,
+      "x": 1220,
+      "y": 400,
       "width": 180,
       "height": 60
     },
@@ -320,7 +329,7 @@
       "id": "n_src_components_projectcarousel_usecardsize",
       "type": "file",
       "file": "useCardSize().md",
-      "x": 820,
+      "x": 20,
       "y": 480,
       "width": 180,
       "height": 60
@@ -329,7 +338,7 @@
       "id": "n_src_hooks_useclock",
       "type": "file",
       "file": "useClock().md",
-      "x": 1020,
+      "x": 220,
       "y": 480,
       "width": 180,
       "height": 60
@@ -338,324 +347,35 @@
       "id": "g1",
       "type": "group",
       "label": "Dev Toolchain",
-      "x": 1400,
+      "x": 1620,
       "y": 0,
-      "width": 1320,
-      "height": 720,
+      "width": 1760,
+      "height": 820,
       "color": "2"
     },
     {
-      "id": "n_ref_tailwindcss_vite",
+      "id": "n_ref_gsap_react",
       "type": "file",
-      "file": "@tailwindcssvite.md",
-      "x": 1420,
+      "file": "@gsapreact.md",
+      "x": 1640,
       "y": 80,
       "width": 180,
       "height": 60
     },
     {
-      "id": "n_package_devdependencies_tailwindcss_vite",
+      "id": "n_package_dependencies_gsap_react",
       "type": "file",
-      "file": "@tailwindcssvite@4.3.5.md",
-      "x": 1620,
+      "file": "@gsapreact@2.1.2.md",
+      "x": 1840,
       "y": 80,
       "width": 180,
       "height": 60
-    },
-    {
-      "id": "n_ref_types_node",
-      "type": "file",
-      "file": "@typesnode.md",
-      "x": 1820,
-      "y": 80,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_package_devdependencies_types_node",
-      "type": "file",
-      "file": "@typesnode@26.6.6.md",
-      "x": 2020,
-      "y": 80,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_ref_types_react",
-      "type": "file",
-      "file": "@typesreact.md",
-      "x": 2220,
-      "y": 80,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_ref_types_react_dom",
-      "type": "file",
-      "file": "@typesreact-dom.md",
-      "x": 2420,
-      "y": 80,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_package_devdependencies_types_react_dom",
-      "type": "file",
-      "file": "@typesreact-dom@19.3.0.md",
-      "x": 1420,
-      "y": 160,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_package_devdependencies_types_react",
-      "type": "file",
-      "file": "@typesreact@19.3.0.md",
-      "x": 1620,
-      "y": 160,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_ref_types_three",
-      "type": "file",
-      "file": "@typesthree.md",
-      "x": 1820,
-      "y": 160,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_package_devdependencies_types_three",
-      "type": "file",
-      "file": "@typesthree@0.187.0.md",
-      "x": 2020,
-      "y": 160,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_ref_vitejs_plugin_react",
-      "type": "file",
-      "file": "@vitejsplugin-react.md",
-      "x": 2220,
-      "y": 160,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_package_devdependencies_vitejs_plugin_react",
-      "type": "file",
-      "file": "@vitejsplugin-react@6.3.0.md",
-      "x": 2420,
-      "y": 160,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_package_scripts_build",
-      "type": "file",
-      "file": "build.md",
-      "x": 1420,
-      "y": 240,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_package_scripts_deploy",
-      "type": "file",
-      "file": "deploy.md",
-      "x": 1620,
-      "y": 240,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_package_scripts_dev",
-      "type": "file",
-      "file": "dev.md",
-      "x": 1820,
-      "y": 240,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_package_devdependencies",
-      "type": "file",
-      "file": "devDependencies.md",
-      "x": 2020,
-      "y": 240,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_ref_gh_pages",
-      "type": "file",
-      "file": "gh-pages.md",
-      "x": 2220,
-      "y": 240,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_package_devdependencies_gh_pages",
-      "type": "file",
-      "file": "gh-pages@6.3.0.md",
-      "x": 2420,
-      "y": 240,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_package_name",
-      "type": "file",
-      "file": "name.md",
-      "x": 1420,
-      "y": 320,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_package",
-      "type": "file",
-      "file": "package.json.md",
-      "x": 1620,
-      "y": 320,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_package_scripts_preview",
-      "type": "file",
-      "file": "preview.md",
-      "x": 1820,
-      "y": 320,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_package_private",
-      "type": "file",
-      "file": "private.md",
-      "x": 2020,
-      "y": 320,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_ref_node_path",
-      "type": "file",
-      "file": "ref_node_path.md",
-      "x": 2220,
-      "y": 320,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_package_scripts",
-      "type": "file",
-      "file": "scripts.md",
-      "x": 2420,
-      "y": 320,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_ref_tailwindcss",
-      "type": "file",
-      "file": "tailwindcss.md",
-      "x": 1420,
-      "y": 400,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_package_devdependencies_tailwindcss",
-      "type": "file",
-      "file": "tailwindcss@4.3.5.md",
-      "x": 1620,
-      "y": 400,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_package_type",
-      "type": "file",
-      "file": "type.md",
-      "x": 1820,
-      "y": 400,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_ref_typescript",
-      "type": "file",
-      "file": "typescript.md",
-      "x": 2020,
-      "y": 400,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_package_devdependencies_typescript",
-      "type": "file",
-      "file": "typescript@7.0.2.md",
-      "x": 2220,
-      "y": 400,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_package_version",
-      "type": "file",
-      "file": "version.md",
-      "x": 2420,
-      "y": 400,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_ref_vite",
-      "type": "file",
-      "file": "vite.md",
-      "x": 1420,
-      "y": 480,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_vite_config",
-      "type": "file",
-      "file": "vite.config.ts.md",
-      "x": 1620,
-      "y": 480,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_package_devdependencies_vite",
-      "type": "file",
-      "file": "vite@8.3.8.md",
-      "x": 1820,
-      "y": 480,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "g2",
-      "type": "group",
-      "label": "Runtime Dependencies",
-      "x": 2800,
-      "y": 0,
-      "width": 1320,
-      "height": 620,
-      "color": "3"
     },
     {
       "id": "n_ref_react_three_fiber",
       "type": "file",
       "file": "@react-threefiber.md",
-      "x": 2820,
+      "x": 2040,
       "y": 80,
       "width": 180,
       "height": 60
@@ -664,80 +384,125 @@
       "id": "n_package_dependencies_react_three_fiber",
       "type": "file",
       "file": "@react-threefiber@9.8.2.md",
-      "x": 3020,
+      "x": 2240,
       "y": 80,
       "width": 180,
       "height": 60
     },
     {
-      "id": "n_src_pet_claudepet_click_lines",
+      "id": "n_ref_tailwindcss_vite",
       "type": "file",
-      "file": "CLICK_LINES.md",
-      "x": 3220,
+      "file": "@tailwindcssvite.md",
+      "x": 2440,
       "y": 80,
       "width": 180,
       "height": 60
     },
     {
-      "id": "n_src_pet_claudepet_claudepet",
+      "id": "n_package_devdependencies_tailwindcss_vite",
       "type": "file",
-      "file": "ClaudePet().md",
-      "x": 3420,
+      "file": "@tailwindcssvite@4.3.5.md",
+      "x": 2640,
       "y": 80,
       "width": 180,
       "height": 60
     },
     {
-      "id": "n_src_pet_claudepet",
+      "id": "n_ref_types_node",
       "type": "file",
-      "file": "ClaudePet.tsx.md",
-      "x": 3620,
+      "file": "@typesnode.md",
+      "x": 2840,
       "y": 80,
       "width": 180,
       "height": 60
     },
     {
-      "id": "n_src_pet_claudepet_clawd",
+      "id": "n_package_devdependencies_types_node",
       "type": "file",
-      "file": "Clawd().md",
-      "x": 3820,
+      "file": "@typesnode@26.6.6.md",
+      "x": 3040,
       "y": 80,
       "width": 180,
       "height": 60
     },
     {
-      "id": "n_src_pet_claudepet_mode",
+      "id": "n_ref_types_react",
       "type": "file",
-      "file": "Mode.md",
-      "x": 2820,
+      "file": "@typesreact.md",
+      "x": 1640,
       "y": 160,
       "width": 180,
       "height": 60
     },
     {
-      "id": "n_src_pet_claudepet_petstate",
+      "id": "n_ref_types_react_dom",
       "type": "file",
-      "file": "PetState.md",
-      "x": 3020,
+      "file": "@typesreact-dom.md",
+      "x": 1840,
       "y": 160,
       "width": 180,
       "height": 60
     },
     {
-      "id": "n_src_pet_claudepet_section_lines",
+      "id": "n_package_devdependencies_types_react_dom",
       "type": "file",
-      "file": "SECTION_LINES.md",
-      "x": 3220,
+      "file": "@typesreact-dom@19.3.0.md",
+      "x": 2040,
       "y": 160,
       "width": 180,
       "height": 60
     },
     {
-      "id": "n_src_pet_claudepet_bodygeometry",
+      "id": "n_package_devdependencies_types_react",
       "type": "file",
-      "file": "bodyGeometry.md",
-      "x": 3420,
+      "file": "@typesreact@19.3.0.md",
+      "x": 2240,
       "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ref_types_three",
+      "type": "file",
+      "file": "@typesthree.md",
+      "x": 2440,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_package_devdependencies_types_three",
+      "type": "file",
+      "file": "@typesthree@0.187.0.md",
+      "x": 2640,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ref_vitejs_plugin_react",
+      "type": "file",
+      "file": "@vitejsplugin-react.md",
+      "x": 2840,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_package_devdependencies_vitejs_plugin_react",
+      "type": "file",
+      "file": "@vitejsplugin-react@6.3.0.md",
+      "x": 3040,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_package_scripts_build",
+      "type": "file",
+      "file": "build.md",
+      "x": 1640,
+      "y": 240,
       "width": 180,
       "height": 60
     },
@@ -745,8 +510,8 @@
       "id": "n_ref_clsx",
       "type": "file",
       "file": "clsx.md",
-      "x": 3620,
-      "y": 160,
+      "x": 1840,
+      "y": 240,
       "width": 180,
       "height": 60
     },
@@ -754,8 +519,8 @@
       "id": "n_package_dependencies_clsx",
       "type": "file",
       "file": "clsx@2.1.1.md",
-      "x": 3820,
-      "y": 160,
+      "x": 2040,
+      "y": 240,
       "width": 180,
       "height": 60
     },
@@ -763,7 +528,7 @@
       "id": "n_src_lib_utils_cn",
       "type": "file",
       "file": "cn().md",
-      "x": 2820,
+      "x": 2240,
       "y": 240,
       "width": 180,
       "height": 60
@@ -772,8 +537,71 @@
       "id": "n_package_dependencies",
       "type": "file",
       "file": "dependencies.md",
-      "x": 3020,
+      "x": 2440,
       "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_package_scripts_deploy",
+      "type": "file",
+      "file": "deploy.md",
+      "x": 2640,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_package_scripts_dev",
+      "type": "file",
+      "file": "dev.md",
+      "x": 2840,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_package_devdependencies",
+      "type": "file",
+      "file": "devDependencies.md",
+      "x": 3040,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ref_gh_pages",
+      "type": "file",
+      "file": "gh-pages.md",
+      "x": 1640,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_package_devdependencies_gh_pages",
+      "type": "file",
+      "file": "gh-pages@6.3.0.md",
+      "x": 1840,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ref_gsap",
+      "type": "file",
+      "file": "gsap.md",
+      "x": 2040,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_package_dependencies_gsap",
+      "type": "file",
+      "file": "gsap@3.15.1.md",
+      "x": 2240,
+      "y": 320,
       "width": 180,
       "height": 60
     },
@@ -781,8 +609,8 @@
       "id": "n_ref_lucide_react",
       "type": "file",
       "file": "lucide-react.md",
-      "x": 3220,
-      "y": 240,
+      "x": 2440,
+      "y": 320,
       "width": 180,
       "height": 60
     },
@@ -790,8 +618,315 @@
       "id": "n_package_dependencies_lucide_react",
       "type": "file",
       "file": "lucide-react@1.77.0.md",
-      "x": 3420,
-      "y": 240,
+      "x": 2640,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ref_motion",
+      "type": "file",
+      "file": "motion_1.md",
+      "x": 2840,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_package_dependencies_motion",
+      "type": "file",
+      "file": "motion@12.43.0.md",
+      "x": 3040,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_package_name",
+      "type": "file",
+      "file": "name.md",
+      "x": 1640,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_package",
+      "type": "file",
+      "file": "package.json.md",
+      "x": 1840,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_package_scripts_preview",
+      "type": "file",
+      "file": "preview.md",
+      "x": 2040,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_package_private",
+      "type": "file",
+      "file": "private.md",
+      "x": 2240,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ref_react_dom",
+      "type": "file",
+      "file": "react-dom.md",
+      "x": 2440,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_package_dependencies_react_dom",
+      "type": "file",
+      "file": "react-dom@19.3.1.md",
+      "x": 2640,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_package_dependencies_react",
+      "type": "file",
+      "file": "react@19.3.1.md",
+      "x": 2840,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ref_node_path",
+      "type": "file",
+      "file": "ref_node_path.md",
+      "x": 3040,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_package_scripts",
+      "type": "file",
+      "file": "scripts.md",
+      "x": 1640,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ref_tailwind_merge",
+      "type": "file",
+      "file": "tailwind-merge.md",
+      "x": 1840,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_package_dependencies_tailwind_merge",
+      "type": "file",
+      "file": "tailwind-merge@3.7.1.md",
+      "x": 2040,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ref_tailwindcss",
+      "type": "file",
+      "file": "tailwindcss.md",
+      "x": 2240,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_package_devdependencies_tailwindcss",
+      "type": "file",
+      "file": "tailwindcss@4.3.5.md",
+      "x": 2440,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ref_three",
+      "type": "file",
+      "file": "three.md",
+      "x": 2640,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_package_dependencies_three",
+      "type": "file",
+      "file": "three@0.187.0.md",
+      "x": 2840,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_package_type",
+      "type": "file",
+      "file": "type.md",
+      "x": 3040,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ref_typescript",
+      "type": "file",
+      "file": "typescript.md",
+      "x": 1640,
+      "y": 560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_package_devdependencies_typescript",
+      "type": "file",
+      "file": "typescript@7.0.2.md",
+      "x": 1840,
+      "y": 560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_lib_utils",
+      "type": "file",
+      "file": "utils.ts.md",
+      "x": 2040,
+      "y": 560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_package_version",
+      "type": "file",
+      "file": "version.md",
+      "x": 2240,
+      "y": 560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ref_vite",
+      "type": "file",
+      "file": "vite.md",
+      "x": 2440,
+      "y": 560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vite_config",
+      "type": "file",
+      "file": "vite.config.ts.md",
+      "x": 2640,
+      "y": 560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_package_devdependencies_vite",
+      "type": "file",
+      "file": "vite@8.3.8.md",
+      "x": 2840,
+      "y": 560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g2",
+      "type": "group",
+      "label": "Community 2",
+      "x": 3460,
+      "y": 0,
+      "width": 880,
+      "height": 420,
+      "color": "3"
+    },
+    {
+      "id": "n_src_pet_claudepet_click_lines",
+      "type": "file",
+      "file": "CLICK_LINES.md",
+      "x": 3480,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_pet_claudepet_claudepet",
+      "type": "file",
+      "file": "ClaudePet().md",
+      "x": 3680,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_pet_claudepet",
+      "type": "file",
+      "file": "ClaudePet.tsx.md",
+      "x": 3880,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_pet_claudepet_clawd",
+      "type": "file",
+      "file": "Clawd().md",
+      "x": 4080,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_pet_claudepet_mode",
+      "type": "file",
+      "file": "Mode.md",
+      "x": 3480,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_pet_claudepet_petstate",
+      "type": "file",
+      "file": "PetState.md",
+      "x": 3680,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_pet_claudepet_section_lines",
+      "type": "file",
+      "file": "SECTION_LINES.md",
+      "x": 3880,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_pet_claudepet_bodygeometry",
+      "type": "file",
+      "file": "bodyGeometry.md",
+      "x": 4080,
+      "y": 160,
       "width": 180,
       "height": 60
     },
@@ -799,7 +934,7 @@
       "id": "n_src_pet_claudepet_now",
       "type": "file",
       "file": "now().md",
-      "x": 3620,
+      "x": 3480,
       "y": 240,
       "width": 180,
       "height": 60
@@ -808,35 +943,8 @@
       "id": "n_src_pet_claudepet_pick",
       "type": "file",
       "file": "pick().md",
-      "x": 3820,
+      "x": 3680,
       "y": 240,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_ref_react_dom",
-      "type": "file",
-      "file": "react-dom.md",
-      "x": 2820,
-      "y": 320,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_package_dependencies_react_dom",
-      "type": "file",
-      "file": "react-dom@19.3.1.md",
-      "x": 3020,
-      "y": 320,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_package_dependencies_react",
-      "type": "file",
-      "file": "react@19.3.1.md",
-      "x": 3220,
-      "y": 320,
       "width": 180,
       "height": 60
     },
@@ -844,53 +952,8 @@
       "id": "n_src_pet_claudepet_readhidden",
       "type": "file",
       "file": "readHidden().md",
-      "x": 3420,
-      "y": 320,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_ref_tailwind_merge",
-      "type": "file",
-      "file": "tailwind-merge.md",
-      "x": 3620,
-      "y": 320,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_package_dependencies_tailwind_merge",
-      "type": "file",
-      "file": "tailwind-merge@3.7.1.md",
-      "x": 3820,
-      "y": 320,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_ref_three",
-      "type": "file",
-      "file": "three.md",
-      "x": 2820,
-      "y": 400,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_package_dependencies_three",
-      "type": "file",
-      "file": "three@0.187.0.md",
-      "x": 3020,
-      "y": 400,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_src_lib_utils",
-      "type": "file",
-      "file": "utils.ts.md",
-      "x": 3220,
-      "y": 400,
+      "x": 3880,
+      "y": 240,
       "width": 180,
       "height": 60
     },
@@ -898,8 +961,8 @@
       "id": "n_src_pet_claudepet_writehidden",
       "type": "file",
       "file": "writeHidden().md",
-      "x": 3420,
-      "y": 400,
+      "x": 4080,
+      "y": 240,
       "width": 180,
       "height": 60
     },
@@ -907,7 +970,7 @@
       "id": "g3",
       "type": "group",
       "label": "shadcn & React Bits Config",
-      "x": 4200,
+      "x": 4420,
       "y": 0,
       "width": 1100,
       "height": 520,
@@ -917,7 +980,7 @@
       "id": "n_components_schema",
       "type": "file",
       "file": "$schema.md",
-      "x": 4220,
+      "x": 4440,
       "y": 80,
       "width": 180,
       "height": 60
@@ -926,7 +989,7 @@
       "id": "n_components_registries_react_bits",
       "type": "file",
       "file": "@react-bits.md",
-      "x": 4420,
+      "x": 4640,
       "y": 80,
       "width": 180,
       "height": 60
@@ -935,7 +998,7 @@
       "id": "n_components_aliases",
       "type": "file",
       "file": "aliases.md",
-      "x": 4620,
+      "x": 4840,
       "y": 80,
       "width": 180,
       "height": 60
@@ -944,7 +1007,7 @@
       "id": "n_components_tailwind_basecolor",
       "type": "file",
       "file": "baseColor.md",
-      "x": 4820,
+      "x": 5040,
       "y": 80,
       "width": 180,
       "height": 60
@@ -953,7 +1016,7 @@
       "id": "n_components_aliases_components",
       "type": "file",
       "file": "components.md",
-      "x": 5020,
+      "x": 5240,
       "y": 80,
       "width": 180,
       "height": 60
@@ -962,7 +1025,7 @@
       "id": "n_components",
       "type": "file",
       "file": "components.json.md",
-      "x": 4220,
+      "x": 4440,
       "y": 160,
       "width": 180,
       "height": 60
@@ -971,7 +1034,7 @@
       "id": "n_components_tailwind_config",
       "type": "file",
       "file": "config.md",
-      "x": 4420,
+      "x": 4640,
       "y": 160,
       "width": 180,
       "height": 60
@@ -980,7 +1043,7 @@
       "id": "n_components_tailwind_css",
       "type": "file",
       "file": "css.md",
-      "x": 4620,
+      "x": 4840,
       "y": 160,
       "width": 180,
       "height": 60
@@ -989,7 +1052,7 @@
       "id": "n_components_tailwind_cssvariables",
       "type": "file",
       "file": "cssVariables.md",
-      "x": 4820,
+      "x": 5040,
       "y": 160,
       "width": 180,
       "height": 60
@@ -998,7 +1061,7 @@
       "id": "n_components_aliases_hooks",
       "type": "file",
       "file": "hooks.md",
-      "x": 5020,
+      "x": 5240,
       "y": 160,
       "width": 180,
       "height": 60
@@ -1007,7 +1070,7 @@
       "id": "n_components_aliases_lib",
       "type": "file",
       "file": "lib.md",
-      "x": 4220,
+      "x": 4440,
       "y": 240,
       "width": 180,
       "height": 60
@@ -1016,7 +1079,7 @@
       "id": "n_components_registries",
       "type": "file",
       "file": "registries.md",
-      "x": 4420,
+      "x": 4640,
       "y": 240,
       "width": 180,
       "height": 60
@@ -1025,7 +1088,7 @@
       "id": "n_components_rsc",
       "type": "file",
       "file": "rsc.md",
-      "x": 4620,
+      "x": 4840,
       "y": 240,
       "width": 180,
       "height": 60
@@ -1034,7 +1097,7 @@
       "id": "n_components_style",
       "type": "file",
       "file": "style.md",
-      "x": 4820,
+      "x": 5040,
       "y": 240,
       "width": 180,
       "height": 60
@@ -1043,7 +1106,7 @@
       "id": "n_components_tailwind",
       "type": "file",
       "file": "tailwind.md",
-      "x": 5020,
+      "x": 5240,
       "y": 240,
       "width": 180,
       "height": 60
@@ -1052,7 +1115,7 @@
       "id": "n_components_tsx",
       "type": "file",
       "file": "tsx.md",
-      "x": 4220,
+      "x": 4440,
       "y": 320,
       "width": 180,
       "height": 60
@@ -1061,7 +1124,7 @@
       "id": "n_components_aliases_ui",
       "type": "file",
       "file": "ui.md",
-      "x": 4420,
+      "x": 4640,
       "y": 320,
       "width": 180,
       "height": 60
@@ -1070,7 +1133,7 @@
       "id": "n_components_aliases_utils",
       "type": "file",
       "file": "utils.md",
-      "x": 4620,
+      "x": 4840,
       "y": 320,
       "width": 180,
       "height": 60
@@ -1080,7 +1143,7 @@
       "type": "group",
       "label": "Magnet Hover Physics",
       "x": 0,
-      "y": 800,
+      "y": 900,
       "width": 1100,
       "height": 520,
       "color": "5"
@@ -1090,7 +1153,7 @@
       "type": "file",
       "file": "DEFAULT_SPRING.md",
       "x": 20,
-      "y": 880,
+      "y": 980,
       "width": 180,
       "height": 60
     },
@@ -1099,25 +1162,7 @@
       "type": "file",
       "file": "Entry.md",
       "x": 220,
-      "y": 880,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_src_sections_footer_footer",
-      "type": "file",
-      "file": "Footer().md",
-      "x": 420,
-      "y": 880,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_src_sections_footer",
-      "type": "file",
-      "file": "Footer.tsx.md",
-      "x": 620,
-      "y": 880,
+      "y": 980,
       "width": 180,
       "height": 60
     },
@@ -1125,8 +1170,8 @@
       "id": "n_src_components_magnet_magnet",
       "type": "file",
       "file": "Magnet().md",
-      "x": 820,
-      "y": 880,
+      "x": 420,
+      "y": 980,
       "width": 180,
       "height": 60
     },
@@ -1134,8 +1179,8 @@
       "id": "n_src_components_magnet",
       "type": "file",
       "file": "Magnet.tsx.md",
-      "x": 20,
-      "y": 960,
+      "x": 620,
+      "y": 980,
       "width": 180,
       "height": 60
     },
@@ -1143,8 +1188,8 @@
       "id": "n_src_components_magnet_magnetaxis",
       "type": "file",
       "file": "MagnetAxis.md",
-      "x": 220,
-      "y": 960,
+      "x": 820,
+      "y": 980,
       "width": 180,
       "height": 60
     },
@@ -1152,8 +1197,8 @@
       "id": "n_src_components_magnet_magnetprops",
       "type": "file",
       "file": "MagnetProps.md",
-      "x": 420,
-      "y": 960,
+      "x": 20,
+      "y": 1060,
       "width": 180,
       "height": 60
     },
@@ -1161,8 +1206,8 @@
       "id": "n_src_components_magnet_magnetspring",
       "type": "file",
       "file": "MagnetSpring.md",
-      "x": 620,
-      "y": 960,
+      "x": 220,
+      "y": 1060,
       "width": 180,
       "height": 60
     },
@@ -1170,8 +1215,8 @@
       "id": "n_src_components_magnet_motion",
       "type": "file",
       "file": "Motion.md",
-      "x": 820,
-      "y": 960,
+      "x": 420,
+      "y": 1060,
       "width": 180,
       "height": 60
     },
@@ -1179,8 +1224,8 @@
       "id": "n_src_components_magnet_point",
       "type": "file",
       "file": "Point.md",
-      "x": 20,
-      "y": 1040,
+      "x": 620,
+      "y": 1060,
       "width": 180,
       "height": 60
     },
@@ -1188,8 +1233,8 @@
       "id": "n_src_components_magnet_settings",
       "type": "file",
       "file": "Settings_2.md",
-      "x": 220,
-      "y": 1040,
+      "x": 820,
+      "y": 1060,
       "width": 180,
       "height": 60
     },
@@ -1197,8 +1242,8 @@
       "id": "n_src_components_magnet_arbitrate",
       "type": "file",
       "file": "arbitrate().md",
-      "x": 420,
-      "y": 1040,
+      "x": 20,
+      "y": 1140,
       "width": 180,
       "height": 60
     },
@@ -1206,8 +1251,8 @@
       "id": "n_src_components_magnet_attach",
       "type": "file",
       "file": "attach().md",
-      "x": 620,
-      "y": 1040,
+      "x": 220,
+      "y": 1140,
       "width": 180,
       "height": 60
     },
@@ -1215,17 +1260,8 @@
       "id": "n_src_components_magnet_field",
       "type": "file",
       "file": "field.md",
-      "x": 820,
-      "y": 1040,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_src_data_profile",
-      "type": "file",
-      "file": "profile.md",
-      "x": 20,
-      "y": 1120,
+      "x": 420,
+      "y": 1140,
       "width": 180,
       "height": 60
     },
@@ -1233,8 +1269,8 @@
       "id": "n_src_components_magnet_reach",
       "type": "file",
       "file": "reach().md",
-      "x": 220,
-      "y": 1120,
+      "x": 620,
+      "y": 1140,
       "width": 180,
       "height": 60
     },
@@ -1242,8 +1278,8 @@
       "id": "n_src_components_magnet_registry",
       "type": "file",
       "file": "registry.md",
-      "x": 420,
-      "y": 1120,
+      "x": 820,
+      "y": 1140,
       "width": 180,
       "height": 60
     },
@@ -1251,8 +1287,8 @@
       "id": "n_src_components_magnet_smoothstep",
       "type": "file",
       "file": "smoothstep().md",
-      "x": 620,
-      "y": 1120,
+      "x": 20,
+      "y": 1220,
       "width": 180,
       "height": 60
     },
@@ -1260,8 +1296,8 @@
       "id": "n_src_components_magnet_magnet_wake",
       "type": "file",
       "file": "wake().md",
-      "x": 820,
-      "y": 1120,
+      "x": 220,
+      "y": 1220,
       "width": 180,
       "height": 60
     },
@@ -1269,8 +1305,8 @@
       "id": "g5",
       "type": "group",
       "label": "ClickSpark Effects",
-      "x": 1400,
-      "y": 800,
+      "x": 1620,
+      "y": 900,
       "width": 880,
       "height": 520,
       "color": "6"
@@ -1279,8 +1315,8 @@
       "id": "n_src_components_clickspark_burst",
       "type": "file",
       "file": "Burst.md",
-      "x": 1420,
-      "y": 880,
+      "x": 1640,
+      "y": 980,
       "width": 180,
       "height": 60
     },
@@ -1288,8 +1324,8 @@
       "id": "n_src_components_clickspark_clickspark",
       "type": "file",
       "file": "ClickSpark.md",
-      "x": 1620,
-      "y": 880,
+      "x": 1840,
+      "y": 980,
       "width": 180,
       "height": 60
     },
@@ -1297,8 +1333,8 @@
       "id": "n_src_components_clickspark",
       "type": "file",
       "file": "ClickSpark.tsx.md",
-      "x": 1820,
-      "y": 880,
+      "x": 2040,
+      "y": 980,
       "width": 180,
       "height": 60
     },
@@ -1306,8 +1342,8 @@
       "id": "n_src_components_clickspark_clicksparkeasing",
       "type": "file",
       "file": "ClickSparkEasing.md",
-      "x": 2020,
-      "y": 880,
+      "x": 2240,
+      "y": 980,
       "width": 180,
       "height": 60
     },
@@ -1315,8 +1351,8 @@
       "id": "n_src_components_clickspark_clicksparkhandle",
       "type": "file",
       "file": "ClickSparkHandle.md",
-      "x": 1420,
-      "y": 960,
+      "x": 1640,
+      "y": 1060,
       "width": 180,
       "height": 60
     },
@@ -1324,8 +1360,8 @@
       "id": "n_src_components_clickspark_clicksparkprops",
       "type": "file",
       "file": "ClickSparkProps.md",
-      "x": 1620,
-      "y": 960,
+      "x": 1840,
+      "y": 1060,
       "width": 180,
       "height": 60
     },
@@ -1333,8 +1369,8 @@
       "id": "n_src_components_clickspark_clicksparkshape",
       "type": "file",
       "file": "ClickSparkShape.md",
-      "x": 1820,
-      "y": 960,
+      "x": 2040,
+      "y": 1060,
       "width": 180,
       "height": 60
     },
@@ -1342,8 +1378,8 @@
       "id": "n_src_components_clickspark_easings",
       "type": "file",
       "file": "EASINGS.md",
-      "x": 2020,
-      "y": 960,
+      "x": 2240,
+      "y": 1060,
       "width": 180,
       "height": 60
     },
@@ -1351,8 +1387,8 @@
       "id": "n_src_components_clickspark_shapes",
       "type": "file",
       "file": "SHAPES_1.md",
-      "x": 1420,
-      "y": 1040,
+      "x": 1640,
+      "y": 1140,
       "width": 180,
       "height": 60
     },
@@ -1360,8 +1396,8 @@
       "id": "n_src_components_clickspark_settings",
       "type": "file",
       "file": "Settings_3.md",
-      "x": 1620,
-      "y": 1040,
+      "x": 1840,
+      "y": 1140,
       "width": 180,
       "height": 60
     },
@@ -1369,8 +1405,8 @@
       "id": "n_src_components_clickspark_spark",
       "type": "file",
       "file": "Spark.md",
-      "x": 1820,
-      "y": 1040,
+      "x": 2040,
+      "y": 1140,
       "width": 180,
       "height": 60
     },
@@ -1378,8 +1414,8 @@
       "id": "n_src_components_clickspark_channels",
       "type": "file",
       "file": "channels().md",
-      "x": 2020,
-      "y": 1040,
+      "x": 2240,
+      "y": 1140,
       "width": 180,
       "height": 60
     },
@@ -1387,8 +1423,8 @@
       "id": "n_src_components_clickspark_clamp",
       "type": "file",
       "file": "clamp()_3.md",
-      "x": 1420,
-      "y": 1120,
+      "x": 1640,
+      "y": 1220,
       "width": 180,
       "height": 60
     },
@@ -1396,8 +1432,8 @@
       "id": "n_src_components_clickspark_smoothstep",
       "type": "file",
       "file": "smoothstep()_1.md",
-      "x": 1620,
-      "y": 1120,
+      "x": 1840,
+      "y": 1220,
       "width": 180,
       "height": 60
     },
@@ -1405,8 +1441,8 @@
       "id": "n_src_components_clickspark_starpath",
       "type": "file",
       "file": "starPath().md",
-      "x": 1820,
-      "y": 1120,
+      "x": 2040,
+      "y": 1220,
       "width": 180,
       "height": 60
     },
@@ -1414,8 +1450,8 @@
       "id": "n_src_components_clickspark_tocolors",
       "type": "file",
       "file": "toColors().md",
-      "x": 2020,
-      "y": 1120,
+      "x": 2240,
+      "y": 1220,
       "width": 180,
       "height": 60
     },
@@ -1423,8 +1459,8 @@
       "id": "g6",
       "type": "group",
       "label": "DecryptedText Scramble",
-      "x": 2800,
-      "y": 800,
+      "x": 3460,
+      "y": 900,
       "width": 880,
       "height": 520,
       "color": "1"
@@ -1433,8 +1469,8 @@
       "id": "n_src_components_decryptedtext_decryptedtext",
       "type": "file",
       "file": "DecryptedText().md",
-      "x": 2820,
-      "y": 880,
+      "x": 3480,
+      "y": 980,
       "width": 180,
       "height": 60
     },
@@ -1442,8 +1478,8 @@
       "id": "n_src_components_decryptedtext",
       "type": "file",
       "file": "DecryptedText.tsx.md",
-      "x": 3020,
-      "y": 880,
+      "x": 3680,
+      "y": 980,
       "width": 180,
       "height": 60
     },
@@ -1451,8 +1487,8 @@
       "id": "n_src_components_decryptedtext_decryptedtextprops",
       "type": "file",
       "file": "DecryptedTextProps.md",
-      "x": 3220,
-      "y": 880,
+      "x": 3880,
+      "y": 980,
       "width": 180,
       "height": 60
     },
@@ -1460,8 +1496,8 @@
       "id": "n_src_components_decryptedtext_engine",
       "type": "file",
       "file": "Engine.md",
-      "x": 3420,
-      "y": 880,
+      "x": 4080,
+      "y": 980,
       "width": 180,
       "height": 60
     },
@@ -1469,8 +1505,8 @@
       "id": "n_src_components_decryptedtext_fontmetrics",
       "type": "file",
       "file": "FontMetrics.md",
-      "x": 2820,
-      "y": 960,
+      "x": 3480,
+      "y": 1060,
       "width": 180,
       "height": 60
     },
@@ -1478,8 +1514,8 @@
       "id": "n_src_components_decryptedtext_frame",
       "type": "file",
       "file": "Frame.md",
-      "x": 3020,
-      "y": 960,
+      "x": 3680,
+      "y": 1060,
       "width": 180,
       "height": 60
     },
@@ -1487,8 +1523,8 @@
       "id": "n_src_components_decryptedtext_group",
       "type": "file",
       "file": "Group.md",
-      "x": 3220,
-      "y": 960,
+      "x": 3880,
+      "y": 1060,
       "width": 180,
       "height": 60
     },
@@ -1496,8 +1532,8 @@
       "id": "n_src_components_decryptedtext_point",
       "type": "file",
       "file": "Point_1.md",
-      "x": 3420,
-      "y": 960,
+      "x": 4080,
+      "y": 1060,
       "width": 180,
       "height": 60
     },
@@ -1505,8 +1541,8 @@
       "id": "n_src_components_decryptedtext_run",
       "type": "file",
       "file": "Run.md",
-      "x": 2820,
-      "y": 1040,
+      "x": 3480,
+      "y": 1140,
       "width": 180,
       "height": 60
     },
@@ -1514,8 +1550,8 @@
       "id": "n_src_components_decryptedtext_runoptions",
       "type": "file",
       "file": "RunOptions.md",
-      "x": 3020,
-      "y": 1040,
+      "x": 3680,
+      "y": 1140,
       "width": 180,
       "height": 60
     },
@@ -1523,8 +1559,8 @@
       "id": "n_src_components_decryptedtext_advance",
       "type": "file",
       "file": "advance().md",
-      "x": 3220,
-      "y": 1040,
+      "x": 3880,
+      "y": 1140,
       "width": 180,
       "height": 60
     },
@@ -1532,8 +1568,8 @@
       "id": "n_src_components_decryptedtext_flipframes",
       "type": "file",
       "file": "flipFrames().md",
-      "x": 3420,
-      "y": 1040,
+      "x": 4080,
+      "y": 1140,
       "width": 180,
       "height": 60
     },
@@ -1541,8 +1577,8 @@
       "id": "n_src_components_decryptedtext_glyphwidths",
       "type": "file",
       "file": "glyphWidths.md",
-      "x": 2820,
-      "y": 1120,
+      "x": 3480,
+      "y": 1220,
       "width": 180,
       "height": 60
     },
@@ -1550,8 +1586,8 @@
       "id": "n_src_components_decryptedtext_isspace",
       "type": "file",
       "file": "isSpace().md",
-      "x": 3020,
-      "y": 1120,
+      "x": 3680,
+      "y": 1220,
       "width": 180,
       "height": 60
     },
@@ -1559,8 +1595,8 @@
       "id": "n_src_components_decryptedtext_prefersreducedmotion",
       "type": "file",
       "file": "prefersReducedMotion().md",
-      "x": 3220,
-      "y": 1120,
+      "x": 3880,
+      "y": 1220,
       "width": 180,
       "height": 60
     },
@@ -1568,36 +1604,36 @@
       "id": "n_src_components_decryptedtext_readfont",
       "type": "file",
       "file": "readFont().md",
-      "x": 3420,
-      "y": 1120,
+      "x": 4080,
+      "y": 1220,
       "width": 180,
       "height": 60
     },
     {
       "id": "g7",
       "type": "group",
-      "label": "SplitText GSAP Reveal",
-      "x": 4200,
-      "y": 800,
-      "width": 880,
-      "height": 520,
+      "label": "Community 7",
+      "x": 4420,
+      "y": 900,
+      "width": 1100,
+      "height": 620,
       "color": "2"
     },
     {
-      "id": "n_ref_gsap_react",
+      "id": "n_src_sections_about_about",
       "type": "file",
-      "file": "@gsapreact.md",
-      "x": 4220,
-      "y": 880,
+      "file": "About().md",
+      "x": 4440,
+      "y": 980,
       "width": 180,
       "height": 60
     },
     {
-      "id": "n_package_dependencies_gsap_react",
+      "id": "n_src_sections_about",
       "type": "file",
-      "file": "@gsapreact@2.1.2.md",
-      "x": 4420,
-      "y": 880,
+      "file": "About.tsx.md",
+      "x": 4640,
+      "y": 980,
       "width": 180,
       "height": 60
     },
@@ -1605,8 +1641,8 @@
       "id": "n_src_components_splittext_default_from",
       "type": "file",
       "file": "DEFAULT_FROM.md",
-      "x": 4620,
-      "y": 880,
+      "x": 4840,
+      "y": 980,
       "width": 180,
       "height": 60
     },
@@ -1614,8 +1650,17 @@
       "id": "n_src_components_splittext_default_to",
       "type": "file",
       "file": "DEFAULT_TO.md",
-      "x": 4820,
-      "y": 880,
+      "x": 5040,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_components_scrollvelocity_fade_steps",
+      "type": "file",
+      "file": "FADE_STEPS.md",
+      "x": 5240,
+      "y": 980,
       "width": 180,
       "height": 60
     },
@@ -1623,8 +1668,8 @@
       "id": "n_src_components_splittext_kick",
       "type": "file",
       "file": "Kick.md",
-      "x": 4220,
-      "y": 960,
+      "x": 4440,
+      "y": 1060,
       "width": 180,
       "height": 60
     },
@@ -1632,8 +1677,53 @@
       "id": "n_src_components_splittext_look",
       "type": "file",
       "file": "Look.md",
-      "x": 4420,
-      "y": 960,
+      "x": 4640,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_components_scrollvelocity_outline_style",
+      "type": "file",
+      "file": "OUTLINE_STYLE.md",
+      "x": 4840,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_components_scrollvelocity_scrollvelocity",
+      "type": "file",
+      "file": "ScrollVelocity().md",
+      "x": 5040,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_components_scrollvelocity",
+      "type": "file",
+      "file": "ScrollVelocity.tsx.md",
+      "x": 5240,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_components_scrollvelocity_scrollvelocityprops",
+      "type": "file",
+      "file": "ScrollVelocityProps.md",
+      "x": 4440,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_components_splittext_splittext",
+      "type": "file",
+      "file": "SplitText().md",
+      "x": 4640,
+      "y": 1140,
       "width": 180,
       "height": 60
     },
@@ -1641,8 +1731,8 @@
       "id": "n_src_components_splittext",
       "type": "file",
       "file": "SplitText.tsx.md",
-      "x": 4620,
-      "y": 960,
+      "x": 4840,
+      "y": 1140,
       "width": 180,
       "height": 60
     },
@@ -1650,8 +1740,8 @@
       "id": "n_src_components_splittext_splittexteffect",
       "type": "file",
       "file": "SplitTextEffect.md",
-      "x": 4820,
-      "y": 960,
+      "x": 5040,
+      "y": 1140,
       "width": 180,
       "height": 60
     },
@@ -1659,8 +1749,8 @@
       "id": "n_src_components_splittext_splittextprops",
       "type": "file",
       "file": "SplitTextProps.md",
-      "x": 4220,
-      "y": 1040,
+      "x": 5240,
+      "y": 1140,
       "width": 180,
       "height": 60
     },
@@ -1668,8 +1758,35 @@
       "id": "n_src_components_splittext_spring",
       "type": "file",
       "file": "Spring.md",
-      "x": 4420,
-      "y": 1040,
+      "x": 4440,
+      "y": 1220,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_components_scrollvelocity_velocitymapping",
+      "type": "file",
+      "file": "VelocityMapping.md",
+      "x": 4640,
+      "y": 1220,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_components_scrollvelocity_velocitytext",
+      "type": "file",
+      "file": "VelocityText().md",
+      "x": 4840,
+      "y": 1220,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_components_scrollvelocity_velocitytextprops",
+      "type": "file",
+      "file": "VelocityTextProps.md",
+      "x": 5040,
+      "y": 1220,
       "width": 180,
       "height": 60
     },
@@ -1677,8 +1794,8 @@
       "id": "n_src_components_splittext_fontsareloaded",
       "type": "file",
       "file": "fontsAreLoaded().md",
-      "x": 4620,
-      "y": 1040,
+      "x": 5240,
+      "y": 1220,
       "width": 180,
       "height": 60
     },
@@ -1686,26 +1803,26 @@
       "id": "n_src_components_splittext_geteffect",
       "type": "file",
       "file": "getEffect().md",
-      "x": 4820,
-      "y": 1040,
+      "x": 4440,
+      "y": 1300,
       "width": 180,
       "height": 60
     },
     {
-      "id": "n_ref_gsap",
+      "id": "n_src_components_scrollvelocity_smootherstep",
       "type": "file",
-      "file": "gsap.md",
-      "x": 4220,
-      "y": 1120,
+      "file": "smootherstep().md",
+      "x": 4640,
+      "y": 1300,
       "width": 180,
       "height": 60
     },
     {
-      "id": "n_package_dependencies_gsap",
+      "id": "n_src_components_scrollvelocity_useelementwidth",
       "type": "file",
-      "file": "gsap@3.15.1.md",
-      "x": 4420,
-      "y": 1120,
+      "file": "useElementWidth().md",
+      "x": 4840,
+      "y": 1300,
       "width": 180,
       "height": 60
     },
@@ -1713,8 +1830,17 @@
       "id": "n_src_components_splittext_waveease",
       "type": "file",
       "file": "waveEase().md",
-      "x": 4620,
-      "y": 1120,
+      "x": 5040,
+      "y": 1300,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_components_scrollvelocity_wrap",
+      "type": "file",
+      "file": "wrap().md",
+      "x": 5240,
+      "y": 1300,
       "width": 180,
       "height": 60
     },
@@ -1723,7 +1849,7 @@
       "type": "group",
       "label": "TiltedCard 3D Tilt",
       "x": 0,
-      "y": 1400,
+      "y": 1600,
       "width": 880,
       "height": 520,
       "color": "3"
@@ -1733,7 +1859,7 @@
       "type": "file",
       "file": "Axis.md",
       "x": 20,
-      "y": 1480,
+      "y": 1680,
       "width": 180,
       "height": 60
     },
@@ -1742,7 +1868,7 @@
       "type": "file",
       "file": "EDGE_STYLE.md",
       "x": 220,
-      "y": 1480,
+      "y": 1680,
       "width": 180,
       "height": 60
     },
@@ -1751,7 +1877,7 @@
       "type": "file",
       "file": "GLARE_STYLE.md",
       "x": 420,
-      "y": 1480,
+      "y": 1680,
       "width": 180,
       "height": 60
     },
@@ -1760,7 +1886,7 @@
       "type": "file",
       "file": "OrientationRequest.md",
       "x": 620,
-      "y": 1480,
+      "y": 1680,
       "width": 180,
       "height": 60
     },
@@ -1769,7 +1895,7 @@
       "type": "file",
       "file": "Settings_4.md",
       "x": 20,
-      "y": 1560,
+      "y": 1760,
       "width": 180,
       "height": 60
     },
@@ -1778,7 +1904,7 @@
       "type": "file",
       "file": "TiltedCard().md",
       "x": 220,
-      "y": 1560,
+      "y": 1760,
       "width": 180,
       "height": 60
     },
@@ -1787,7 +1913,7 @@
       "type": "file",
       "file": "TiltedCard.tsx.md",
       "x": 420,
-      "y": 1560,
+      "y": 1760,
       "width": 180,
       "height": 60
     },
@@ -1796,7 +1922,7 @@
       "type": "file",
       "file": "TiltedCardLayer().md",
       "x": 620,
-      "y": 1560,
+      "y": 1760,
       "width": 180,
       "height": 60
     },
@@ -1805,7 +1931,7 @@
       "type": "file",
       "file": "TiltedCardLayerProps.md",
       "x": 20,
-      "y": 1640,
+      "y": 1840,
       "width": 180,
       "height": 60
     },
@@ -1814,7 +1940,7 @@
       "type": "file",
       "file": "TiltedCardProps.md",
       "x": 220,
-      "y": 1640,
+      "y": 1840,
       "width": 180,
       "height": 60
     },
@@ -1823,7 +1949,7 @@
       "type": "file",
       "file": "clamp()_4.md",
       "x": 420,
-      "y": 1640,
+      "y": 1840,
       "width": 180,
       "height": 60
     },
@@ -1832,7 +1958,7 @@
       "type": "file",
       "file": "parseColor()_1.md",
       "x": 620,
-      "y": 1640,
+      "y": 1840,
       "width": 180,
       "height": 60
     },
@@ -1841,7 +1967,7 @@
       "type": "file",
       "file": "smoother().md",
       "x": 20,
-      "y": 1720,
+      "y": 1920,
       "width": 180,
       "height": 60
     },
@@ -1850,7 +1976,7 @@
       "type": "file",
       "file": "step().md",
       "x": 220,
-      "y": 1720,
+      "y": 1920,
       "width": 180,
       "height": 60
     },
@@ -1859,7 +1985,7 @@
       "type": "file",
       "file": "toLength().md",
       "x": 420,
-      "y": 1720,
+      "y": 1920,
       "width": 180,
       "height": 60
     },
@@ -1867,8 +1993,8 @@
       "id": "g9",
       "type": "group",
       "label": "TypeScript Config",
-      "x": 1400,
-      "y": 1400,
+      "x": 1620,
+      "y": 1600,
       "width": 880,
       "height": 520,
       "color": "4"
@@ -1877,8 +2003,8 @@
       "id": "n_tsconfig_compileroptions_allowimportingtsextensions",
       "type": "file",
       "file": "allowImportingTsExtensions.md",
-      "x": 1420,
-      "y": 1480,
+      "x": 1640,
+      "y": 1680,
       "width": 180,
       "height": 60
     },
@@ -1886,8 +2012,8 @@
       "id": "n_tsconfig_compileroptions",
       "type": "file",
       "file": "compilerOptions.md",
-      "x": 1620,
-      "y": 1480,
+      "x": 1840,
+      "y": 1680,
       "width": 180,
       "height": 60
     },
@@ -1895,8 +2021,8 @@
       "id": "n_tsconfig_include",
       "type": "file",
       "file": "include.md",
-      "x": 1820,
-      "y": 1480,
+      "x": 2040,
+      "y": 1680,
       "width": 180,
       "height": 60
     },
@@ -1904,8 +2030,8 @@
       "id": "n_tsconfig_compileroptions_isolatedmodules",
       "type": "file",
       "file": "isolatedModules.md",
-      "x": 2020,
-      "y": 1480,
+      "x": 2240,
+      "y": 1680,
       "width": 180,
       "height": 60
     },
@@ -1913,8 +2039,8 @@
       "id": "n_tsconfig_compileroptions_jsx",
       "type": "file",
       "file": "jsx.md",
-      "x": 1420,
-      "y": 1560,
+      "x": 1640,
+      "y": 1760,
       "width": 180,
       "height": 60
     },
@@ -1922,8 +2048,8 @@
       "id": "n_tsconfig_compileroptions_lib",
       "type": "file",
       "file": "lib_1.md",
-      "x": 1620,
-      "y": 1560,
+      "x": 1840,
+      "y": 1760,
       "width": 180,
       "height": 60
     },
@@ -1931,8 +2057,8 @@
       "id": "n_tsconfig_compileroptions_module",
       "type": "file",
       "file": "module.md",
-      "x": 1820,
-      "y": 1560,
+      "x": 2040,
+      "y": 1760,
       "width": 180,
       "height": 60
     },
@@ -1940,8 +2066,8 @@
       "id": "n_tsconfig_compileroptions_moduleresolution",
       "type": "file",
       "file": "moduleResolution.md",
-      "x": 2020,
-      "y": 1560,
+      "x": 2240,
+      "y": 1760,
       "width": 180,
       "height": 60
     },
@@ -1949,8 +2075,8 @@
       "id": "n_tsconfig_compileroptions_noemit",
       "type": "file",
       "file": "noEmit.md",
-      "x": 1420,
-      "y": 1640,
+      "x": 1640,
+      "y": 1840,
       "width": 180,
       "height": 60
     },
@@ -1958,8 +2084,8 @@
       "id": "n_tsconfig_compileroptions_paths",
       "type": "file",
       "file": "paths.md",
-      "x": 1620,
-      "y": 1640,
+      "x": 1840,
+      "y": 1840,
       "width": 180,
       "height": 60
     },
@@ -1967,8 +2093,8 @@
       "id": "n_tsconfig_compileroptions_skiplibcheck",
       "type": "file",
       "file": "skipLibCheck.md",
-      "x": 1820,
-      "y": 1640,
+      "x": 2040,
+      "y": 1840,
       "width": 180,
       "height": 60
     },
@@ -1976,8 +2102,8 @@
       "id": "n_tsconfig_compileroptions_strict",
       "type": "file",
       "file": "strict.md",
-      "x": 2020,
-      "y": 1640,
+      "x": 2240,
+      "y": 1840,
       "width": 180,
       "height": 60
     },
@@ -1985,8 +2111,8 @@
       "id": "n_tsconfig_compileroptions_target",
       "type": "file",
       "file": "target_1.md",
-      "x": 1420,
-      "y": 1720,
+      "x": 1640,
+      "y": 1920,
       "width": 180,
       "height": 60
     },
@@ -1994,8 +2120,8 @@
       "id": "n_tsconfig",
       "type": "file",
       "file": "tsconfig.json.md",
-      "x": 1620,
-      "y": 1720,
+      "x": 1840,
+      "y": 1920,
       "width": 180,
       "height": 60
     },
@@ -2003,126 +2129,8 @@
       "id": "n_tsconfig_compileroptions_types",
       "type": "file",
       "file": "types.md",
-      "x": 1820,
-      "y": 1720,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "g10",
-      "type": "group",
-      "label": "ScrollVelocity Marquee",
-      "x": 2800,
-      "y": 1400,
-      "width": 880,
-      "height": 420,
-      "color": "5"
-    },
-    {
-      "id": "n_src_components_scrollvelocity_fade_steps",
-      "type": "file",
-      "file": "FADE_STEPS.md",
-      "x": 2820,
-      "y": 1480,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_src_components_scrollvelocity_outline_style",
-      "type": "file",
-      "file": "OUTLINE_STYLE.md",
-      "x": 3020,
-      "y": 1480,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_src_components_scrollvelocity",
-      "type": "file",
-      "file": "ScrollVelocity.tsx.md",
-      "x": 3220,
-      "y": 1480,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_src_components_scrollvelocity_scrollvelocityprops",
-      "type": "file",
-      "file": "ScrollVelocityProps.md",
-      "x": 3420,
-      "y": 1480,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_src_components_scrollvelocity_velocitymapping",
-      "type": "file",
-      "file": "VelocityMapping.md",
-      "x": 2820,
-      "y": 1560,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_src_components_scrollvelocity_velocitytext",
-      "type": "file",
-      "file": "VelocityText().md",
-      "x": 3020,
-      "y": 1560,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_src_components_scrollvelocity_velocitytextprops",
-      "type": "file",
-      "file": "VelocityTextProps.md",
-      "x": 3220,
-      "y": 1560,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_ref_motion",
-      "type": "file",
-      "file": "motion_1.md",
-      "x": 3420,
-      "y": 1560,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_package_dependencies_motion",
-      "type": "file",
-      "file": "motion@12.43.0.md",
-      "x": 2820,
-      "y": 1640,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_src_components_scrollvelocity_smootherstep",
-      "type": "file",
-      "file": "smootherstep().md",
-      "x": 3020,
-      "y": 1640,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_src_components_scrollvelocity_useelementwidth",
-      "type": "file",
-      "file": "useElementWidth().md",
-      "x": 3220,
-      "y": 1640,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_src_components_scrollvelocity_wrap",
-      "type": "file",
-      "file": "wrap().md",
-      "x": 3420,
-      "y": 1640,
+      "x": 2040,
+      "y": 1920,
       "width": 180,
       "height": 60
     },
@@ -2130,18 +2138,18 @@
       "id": "g11",
       "type": "group",
       "label": "LiquidChrome WebGL Shader",
-      "x": 4200,
-      "y": 1400,
+      "x": 3460,
+      "y": 1600,
       "width": 880,
       "height": 420,
-      "color": "6"
+      "color": "5"
     },
     {
       "id": "n_src_components_liquidchrome_liquidchrome",
       "type": "file",
       "file": "LiquidChrome().md",
-      "x": 4220,
-      "y": 1480,
+      "x": 3480,
+      "y": 1680,
       "width": 180,
       "height": 60
     },
@@ -2149,8 +2157,8 @@
       "id": "n_src_components_liquidchrome",
       "type": "file",
       "file": "LiquidChrome.tsx.md",
-      "x": 4420,
-      "y": 1480,
+      "x": 3680,
+      "y": 1680,
       "width": 180,
       "height": 60
     },
@@ -2158,8 +2166,8 @@
       "id": "n_src_components_liquidchrome_liquidchromeprops",
       "type": "file",
       "file": "LiquidChromeProps.md",
-      "x": 4620,
-      "y": 1480,
+      "x": 3880,
+      "y": 1680,
       "width": 180,
       "height": 60
     },
@@ -2167,8 +2175,8 @@
       "id": "n_src_components_liquidchrome_program",
       "type": "file",
       "file": "Program.md",
-      "x": 4820,
-      "y": 1480,
+      "x": 4080,
+      "y": 1680,
       "width": 180,
       "height": 60
     },
@@ -2176,8 +2184,8 @@
       "id": "n_src_components_liquidchrome_settings",
       "type": "file",
       "file": "Settings.md",
-      "x": 4220,
-      "y": 1560,
+      "x": 3480,
+      "y": 1760,
       "width": 180,
       "height": 60
     },
@@ -2185,8 +2193,8 @@
       "id": "n_src_components_liquidchrome_stroke",
       "type": "file",
       "file": "Stroke.md",
-      "x": 4420,
-      "y": 1560,
+      "x": 3680,
+      "y": 1760,
       "width": 180,
       "height": 60
     },
@@ -2194,8 +2202,8 @@
       "id": "n_src_components_liquidchrome_target",
       "type": "file",
       "file": "Target.md",
-      "x": 4620,
-      "y": 1560,
+      "x": 3880,
+      "y": 1760,
       "width": 180,
       "height": 60
     },
@@ -2203,8 +2211,8 @@
       "id": "n_src_components_liquidchrome_clamp",
       "type": "file",
       "file": "clamp().md",
-      "x": 4820,
-      "y": 1560,
+      "x": 4080,
+      "y": 1760,
       "width": 180,
       "height": 60
     },
@@ -2212,8 +2220,8 @@
       "id": "n_src_components_liquidchrome_compile",
       "type": "file",
       "file": "compile().md",
-      "x": 4220,
-      "y": 1640,
+      "x": 3480,
+      "y": 1840,
       "width": 180,
       "height": 60
     },
@@ -2221,8 +2229,8 @@
       "id": "n_src_components_liquidchrome_link",
       "type": "file",
       "file": "link().md",
-      "x": 4420,
-      "y": 1640,
+      "x": 3680,
+      "y": 1840,
       "width": 180,
       "height": 60
     },
@@ -2230,8 +2238,8 @@
       "id": "n_src_components_liquidchrome_parsecolor",
       "type": "file",
       "file": "parseColor().md",
-      "x": 4620,
-      "y": 1640,
+      "x": 3880,
+      "y": 1840,
       "width": 180,
       "height": 60
     },
@@ -2239,18 +2247,18 @@
       "id": "g12",
       "type": "group",
       "label": "Noise Grain Overlay",
-      "x": 0,
-      "y": 2000,
+      "x": 4420,
+      "y": 1600,
       "width": 880,
       "height": 420,
-      "color": "1"
+      "color": "6"
     },
     {
       "id": "n_src_components_noise_blends",
       "type": "file",
       "file": "BLENDS.md",
-      "x": 20,
-      "y": 2080,
+      "x": 4440,
+      "y": 1680,
       "width": 180,
       "height": 60
     },
@@ -2258,8 +2266,8 @@
       "id": "n_src_components_noise_noise",
       "type": "file",
       "file": "Noise().md",
-      "x": 220,
-      "y": 2080,
+      "x": 4640,
+      "y": 1680,
       "width": 180,
       "height": 60
     },
@@ -2267,8 +2275,8 @@
       "id": "n_src_components_noise",
       "type": "file",
       "file": "Noise.tsx.md",
-      "x": 420,
-      "y": 2080,
+      "x": 4840,
+      "y": 1680,
       "width": 180,
       "height": 60
     },
@@ -2276,8 +2284,8 @@
       "id": "n_src_components_noise_noiseblendmode",
       "type": "file",
       "file": "NoiseBlendMode.md",
-      "x": 620,
-      "y": 2080,
+      "x": 5040,
+      "y": 1680,
       "width": 180,
       "height": 60
     },
@@ -2285,8 +2293,8 @@
       "id": "n_src_components_noise_noiseprops",
       "type": "file",
       "file": "NoiseProps.md",
-      "x": 20,
-      "y": 2160,
+      "x": 4440,
+      "y": 1760,
       "width": 180,
       "height": 60
     },
@@ -2294,8 +2302,8 @@
       "id": "n_src_components_noise_clamp",
       "type": "file",
       "file": "clamp()_1.md",
-      "x": 220,
-      "y": 2160,
+      "x": 4640,
+      "y": 1760,
       "width": 180,
       "height": 60
     },
@@ -2303,8 +2311,8 @@
       "id": "n_src_components_noise_drawhair",
       "type": "file",
       "file": "drawHair().md",
-      "x": 420,
-      "y": 2160,
+      "x": 4840,
+      "y": 1760,
       "width": 180,
       "height": 60
     },
@@ -2312,8 +2320,8 @@
       "id": "n_src_components_noise_drawspeck",
       "type": "file",
       "file": "drawSpeck().md",
-      "x": 620,
-      "y": 2160,
+      "x": 5040,
+      "y": 1760,
       "width": 180,
       "height": 60
     },
@@ -2321,8 +2329,8 @@
       "id": "n_src_components_noise_generator",
       "type": "file",
       "file": "generator().md",
-      "x": 20,
-      "y": 2240,
+      "x": 4440,
+      "y": 1840,
       "width": 180,
       "height": 60
     },
@@ -2330,8 +2338,8 @@
       "id": "n_src_components_noise_painttile",
       "type": "file",
       "file": "paintTile().md",
-      "x": 220,
-      "y": 2240,
+      "x": 4640,
+      "y": 1840,
       "width": 180,
       "height": 60
     },
@@ -2339,18 +2347,18 @@
       "id": "g13",
       "type": "group",
       "label": "SpotlightCard Glow",
-      "x": 1400,
-      "y": 2000,
+      "x": 0,
+      "y": 2200,
       "width": 880,
       "height": 420,
-      "color": "2"
+      "color": "1"
     },
     {
       "id": "n_src_components_spotlightcard_palette",
       "type": "file",
       "file": "Palette.md",
-      "x": 1420,
-      "y": 2080,
+      "x": 20,
+      "y": 2280,
       "width": 180,
       "height": 60
     },
@@ -2358,8 +2366,8 @@
       "id": "n_src_components_spotlightcard_shapes",
       "type": "file",
       "file": "SHAPES.md",
-      "x": 1620,
-      "y": 2080,
+      "x": 220,
+      "y": 2280,
       "width": 180,
       "height": 60
     },
@@ -2367,8 +2375,8 @@
       "id": "n_src_components_spotlightcard_settings",
       "type": "file",
       "file": "Settings_1.md",
-      "x": 1820,
-      "y": 2080,
+      "x": 420,
+      "y": 2280,
       "width": 180,
       "height": 60
     },
@@ -2376,8 +2384,8 @@
       "id": "n_src_components_spotlightcard_spotlightcard",
       "type": "file",
       "file": "SpotlightCard().md",
-      "x": 2020,
-      "y": 2080,
+      "x": 620,
+      "y": 2280,
       "width": 180,
       "height": 60
     },
@@ -2385,8 +2393,8 @@
       "id": "n_src_components_spotlightcard",
       "type": "file",
       "file": "SpotlightCard.tsx.md",
-      "x": 1420,
-      "y": 2160,
+      "x": 20,
+      "y": 2360,
       "width": 180,
       "height": 60
     },
@@ -2394,8 +2402,8 @@
       "id": "n_src_components_spotlightcard_spotlightcardprops",
       "type": "file",
       "file": "SpotlightCardProps.md",
-      "x": 1620,
-      "y": 2160,
+      "x": 220,
+      "y": 2360,
       "width": 180,
       "height": 60
     },
@@ -2403,8 +2411,8 @@
       "id": "n_src_components_spotlightcard_spotlightshape",
       "type": "file",
       "file": "SpotlightShape.md",
-      "x": 1820,
-      "y": 2160,
+      "x": 420,
+      "y": 2360,
       "width": 180,
       "height": 60
     },
@@ -2412,8 +2420,8 @@
       "id": "n_src_components_spotlightcard_themes",
       "type": "file",
       "file": "THEMES.md",
-      "x": 2020,
-      "y": 2160,
+      "x": 620,
+      "y": 2360,
       "width": 180,
       "height": 60
     },
@@ -2421,8 +2429,8 @@
       "id": "n_src_components_spotlightcard_clamp",
       "type": "file",
       "file": "clamp()_2.md",
-      "x": 1420,
-      "y": 2240,
+      "x": 20,
+      "y": 2440,
       "width": 180,
       "height": 60
     },
@@ -2430,8 +2438,8 @@
       "id": "n_src_components_spotlightcard_falloff",
       "type": "file",
       "file": "falloff().md",
-      "x": 1620,
-      "y": 2240,
+      "x": 220,
+      "y": 2440,
       "width": 180,
       "height": 60
     },
@@ -2439,18 +2447,18 @@
       "id": "g14",
       "type": "group",
       "label": "Brand Identity & Fonts",
-      "x": 2800,
-      "y": 2000,
+      "x": 1620,
+      "y": 2200,
       "width": 660,
       "height": 420,
-      "color": "3"
+      "color": "2"
     },
     {
       "id": "n_index_alejandro_abrego",
       "type": "file",
       "file": "Alejandro Abrego.md",
-      "x": 2820,
-      "y": 2080,
+      "x": 1640,
+      "y": 2280,
       "width": 180,
       "height": 60
     },
@@ -2458,8 +2466,8 @@
       "id": "n_index_theme_palette",
       "type": "file",
       "file": "Dark theme palette with terracotta accent.md",
-      "x": 3020,
-      "y": 2080,
+      "x": 1840,
+      "y": 2280,
       "width": 180,
       "height": 60
     },
@@ -2467,8 +2475,8 @@
       "id": "n_index_google_fonts",
       "type": "file",
       "file": "Google Fonts.md",
-      "x": 3220,
-      "y": 2080,
+      "x": 2040,
+      "y": 2280,
       "width": 180,
       "height": 60
     },
@@ -2476,8 +2484,8 @@
       "id": "n_index_instrument_serif_font",
       "type": "file",
       "file": "Instrument Serif.md",
-      "x": 2820,
-      "y": 2160,
+      "x": 1640,
+      "y": 2360,
       "width": 180,
       "height": 60
     },
@@ -2485,8 +2493,8 @@
       "id": "n_index_jetbrains_mono_font",
       "type": "file",
       "file": "JetBrains Mono.md",
-      "x": 3020,
-      "y": 2160,
+      "x": 1840,
+      "y": 2360,
       "width": 180,
       "height": 60
     },
@@ -2494,8 +2502,8 @@
       "id": "n_index_portfolio_page",
       "type": "file",
       "file": "Portfolio landing page (index.html).md",
-      "x": 3220,
-      "y": 2160,
+      "x": 2040,
+      "y": 2360,
       "width": 180,
       "height": 60
     },
@@ -2503,8 +2511,8 @@
       "id": "n_index_uanl",
       "type": "file",
       "file": "UANL (Universidad Autonoma de Nuevo Leon).md",
-      "x": 2820,
-      "y": 2240,
+      "x": 1640,
+      "y": 2440,
       "width": 180,
       "height": 60
     },
@@ -2512,18 +2520,18 @@
       "id": "g16",
       "type": "group",
       "label": "Community 16",
-      "x": 4200,
-      "y": 2000,
+      "x": 3460,
+      "y": 2200,
       "width": 600,
       "height": 400,
-      "color": "4"
+      "color": "3"
     },
     {
       "id": "n_claude_b\u00f3veda_de_obsidian_bovedaportafolioweb",
       "type": "file",
       "file": "B\u00f3veda de Obsidian (`bovedaportafolioweb`).md",
-      "x": 4220,
-      "y": 2080,
+      "x": 3480,
+      "y": 2280,
       "width": 180,
       "height": 60
     },
@@ -2531,8 +2539,8 @@
       "id": "n_claude",
       "type": "file",
       "file": "CLAUDE.md",
-      "x": 4420,
-      "y": 2080,
+      "x": 3680,
+      "y": 2280,
       "width": 180,
       "height": 60
     },
@@ -2540,8 +2548,8 @@
       "id": "n_claude_memoria_en_grafos_graphify_obligatorio",
       "type": "file",
       "file": "Memoria en grafos (graphify) \u2014 obligatorio.md",
-      "x": 4220,
-      "y": 2160,
+      "x": 3480,
+      "y": 2360,
       "width": 180,
       "height": 60
     },
@@ -2549,8 +2557,8 @@
       "id": "n_claude_portafolio_web_alejandro_abrego",
       "type": "file",
       "file": "Portafolio web \u2014 Alejandro Abrego.md",
-      "x": 4420,
-      "y": 2160,
+      "x": 3680,
+      "y": 2360,
       "width": 180,
       "height": 60
     }
@@ -2578,24 +2586,6 @@
       "id": "e_src_data_src_data_project",
       "fromNode": "n_src_data",
       "toNode": "n_src_data_project",
-      "label": "contains [EXTRACTED]"
-    },
-    {
-      "id": "e_src_components_scrollvelocity_src_components_scrollvelocity_scrollvelocityprops",
-      "fromNode": "n_src_components_scrollvelocity",
-      "toNode": "n_src_components_scrollvelocity_scrollvelocityprops",
-      "label": "contains [EXTRACTED]"
-    },
-    {
-      "id": "e_src_components_scrollvelocity_src_components_scrollvelocity_velocitymapping",
-      "fromNode": "n_src_components_scrollvelocity",
-      "toNode": "n_src_components_scrollvelocity_velocitymapping",
-      "label": "contains [EXTRACTED]"
-    },
-    {
-      "id": "e_src_components_scrollvelocity_src_components_scrollvelocity_velocitytextprops",
-      "fromNode": "n_src_components_scrollvelocity",
-      "toNode": "n_src_components_scrollvelocity_velocitytextprops",
       "label": "contains [EXTRACTED]"
     },
     {
@@ -2809,6 +2799,24 @@
       "label": "contains [EXTRACTED]"
     },
     {
+      "id": "e_src_components_scrollvelocity_src_components_scrollvelocity_scrollvelocityprops",
+      "fromNode": "n_src_components_scrollvelocity",
+      "toNode": "n_src_components_scrollvelocity_scrollvelocityprops",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_src_components_scrollvelocity_src_components_scrollvelocity_velocitymapping",
+      "fromNode": "n_src_components_scrollvelocity",
+      "toNode": "n_src_components_scrollvelocity_velocitymapping",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_src_components_scrollvelocity_src_components_scrollvelocity_velocitytextprops",
+      "fromNode": "n_src_components_scrollvelocity",
+      "toNode": "n_src_components_scrollvelocity_velocitytextprops",
+      "label": "contains [EXTRACTED]"
+    },
+    {
       "id": "e_src_components_splittext_src_components_splittext_kick",
       "fromNode": "n_src_components_splittext",
       "toNode": "n_src_components_splittext_kick",
@@ -2959,12 +2967,6 @@
       "label": "calls [EXTRACTED]"
     },
     {
-      "id": "e_src_sections_work_src_components_projectcarousel_projectcarousel",
-      "fromNode": "n_src_sections_work",
-      "toNode": "n_src_components_projectcarousel_projectcarousel",
-      "label": "imports [EXTRACTED]"
-    },
-    {
       "id": "e_src_components_projectcarousel_src_components_projectcarousel_projectcarousel",
       "fromNode": "n_src_components_projectcarousel",
       "toNode": "n_src_components_projectcarousel_projectcarousel",
@@ -2977,70 +2979,46 @@
       "label": "contains [EXTRACTED]"
     },
     {
-      "id": "e_src_components_scrollvelocity_scrollvelocity_src_components_scrollvelocity_velocitytext",
-      "fromNode": "n_src_components_scrollvelocity_scrollvelocity",
-      "toNode": "n_src_components_scrollvelocity_velocitytext",
+      "id": "e_src_sections_experience_experience_src_components_sectiontitle_sectiontitle",
+      "fromNode": "n_src_sections_experience_experience",
+      "toNode": "n_src_components_sectiontitle_sectiontitle",
       "label": "calls [EXTRACTED]"
     },
     {
-      "id": "e_src_sections_about_about_src_components_scrollvelocity_scrollvelocity",
-      "fromNode": "n_src_sections_about_about",
-      "toNode": "n_src_components_scrollvelocity_scrollvelocity",
+      "id": "e_src_sections_skills_skills_src_components_sectiontitle_sectiontitle",
+      "fromNode": "n_src_sections_skills_skills",
+      "toNode": "n_src_components_sectiontitle_sectiontitle",
       "label": "calls [EXTRACTED]"
     },
     {
-      "id": "e_src_sections_about_src_components_scrollvelocity_scrollvelocity",
-      "fromNode": "n_src_sections_about",
-      "toNode": "n_src_components_scrollvelocity_scrollvelocity",
+      "id": "e_src_sections_work_work_src_components_sectiontitle_sectiontitle",
+      "fromNode": "n_src_sections_work_work",
+      "toNode": "n_src_components_sectiontitle_sectiontitle",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_src_sections_experience_src_components_sectiontitle_sectiontitle",
+      "fromNode": "n_src_sections_experience",
+      "toNode": "n_src_components_sectiontitle_sectiontitle",
       "label": "imports [EXTRACTED]"
     },
     {
-      "id": "e_src_components_scrollvelocity_src_components_scrollvelocity_scrollvelocity",
-      "fromNode": "n_src_components_scrollvelocity",
-      "toNode": "n_src_components_scrollvelocity_scrollvelocity",
+      "id": "e_src_sections_skills_src_components_sectiontitle_sectiontitle",
+      "fromNode": "n_src_sections_skills",
+      "toNode": "n_src_components_sectiontitle_sectiontitle",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_src_sections_work_src_components_sectiontitle_sectiontitle",
+      "fromNode": "n_src_sections_work",
+      "toNode": "n_src_components_sectiontitle_sectiontitle",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_src_components_sectiontitle_src_components_sectiontitle_sectiontitle",
+      "fromNode": "n_src_components_sectiontitle",
+      "toNode": "n_src_components_sectiontitle_sectiontitle",
       "label": "contains [EXTRACTED]"
-    },
-    {
-      "id": "e_src_components_splittext_splittext_src_components_splittext_geteffect",
-      "fromNode": "n_src_components_splittext_splittext",
-      "toNode": "n_src_components_splittext_geteffect",
-      "label": "calls [EXTRACTED]"
-    },
-    {
-      "id": "e_src_sections_about_about_src_components_splittext_splittext",
-      "fromNode": "n_src_sections_about_about",
-      "toNode": "n_src_components_splittext_splittext",
-      "label": "calls [EXTRACTED]"
-    },
-    {
-      "id": "e_src_sections_hero_hero_src_components_splittext_splittext",
-      "fromNode": "n_src_sections_hero_hero",
-      "toNode": "n_src_components_splittext_splittext",
-      "label": "calls [EXTRACTED]"
-    },
-    {
-      "id": "e_src_sections_about_src_components_splittext_splittext",
-      "fromNode": "n_src_sections_about",
-      "toNode": "n_src_components_splittext_splittext",
-      "label": "imports [EXTRACTED]"
-    },
-    {
-      "id": "e_src_sections_hero_src_components_splittext_splittext",
-      "fromNode": "n_src_sections_hero",
-      "toNode": "n_src_components_splittext_splittext",
-      "label": "imports [EXTRACTED]"
-    },
-    {
-      "id": "e_src_components_splittext_src_components_splittext_splittext",
-      "fromNode": "n_src_components_splittext",
-      "toNode": "n_src_components_splittext_splittext",
-      "label": "contains [EXTRACTED]"
-    },
-    {
-      "id": "e_src_components_splittext_splittext_src_components_splittext_fontsareloaded",
-      "fromNode": "n_src_components_splittext_splittext",
-      "toNode": "n_src_components_splittext_fontsareloaded",
-      "label": "indirect_call [INFERRED]"
     },
     {
       "id": "e_src_sections_about_about_src_hooks_asset",
@@ -3121,18 +3099,6 @@
       "label": "contains [EXTRACTED]"
     },
     {
-      "id": "e_src_app_src_sections_about_about",
-      "fromNode": "n_src_app",
-      "toNode": "n_src_sections_about_about",
-      "label": "imports [EXTRACTED]"
-    },
-    {
-      "id": "e_src_sections_about_src_sections_about_about",
-      "fromNode": "n_src_sections_about",
-      "toNode": "n_src_sections_about_about",
-      "label": "contains [EXTRACTED]"
-    },
-    {
       "id": "e_src_sections_experience_experience_src_sections_experience_row",
       "fromNode": "n_src_sections_experience_experience",
       "toNode": "n_src_sections_experience_row",
@@ -3157,9 +3123,33 @@
       "label": "contains [EXTRACTED]"
     },
     {
+      "id": "e_src_sections_footer_footer_src_components_magnet_magnet",
+      "fromNode": "n_src_sections_footer_footer",
+      "toNode": "n_src_components_magnet_magnet",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_src_app_src_sections_footer_footer",
+      "fromNode": "n_src_app",
+      "toNode": "n_src_sections_footer_footer",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_src_sections_footer_src_sections_footer_footer",
+      "fromNode": "n_src_sections_footer",
+      "toNode": "n_src_sections_footer_footer",
+      "label": "contains [EXTRACTED]"
+    },
+    {
       "id": "e_src_sections_hero_hero_src_components_liquidchrome_liquidchrome",
       "fromNode": "n_src_sections_hero_hero",
       "toNode": "n_src_components_liquidchrome_liquidchrome",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_src_sections_hero_hero_src_components_splittext_splittext",
+      "fromNode": "n_src_sections_hero_hero",
+      "toNode": "n_src_components_splittext_splittext",
       "label": "calls [EXTRACTED]"
     },
     {
@@ -3235,39 +3225,9 @@
       "label": "contains [EXTRACTED]"
     },
     {
-      "id": "e_src_components_scrollvelocity_src_components_scrollvelocity_smootherstep",
-      "fromNode": "n_src_components_scrollvelocity",
-      "toNode": "n_src_components_scrollvelocity_smootherstep",
-      "label": "contains [EXTRACTED]"
-    },
-    {
-      "id": "e_src_components_scrollvelocity_velocitytext_src_components_scrollvelocity_useelementwidth",
-      "fromNode": "n_src_components_scrollvelocity_velocitytext",
-      "toNode": "n_src_components_scrollvelocity_useelementwidth",
-      "label": "calls [EXTRACTED]"
-    },
-    {
-      "id": "e_src_components_scrollvelocity_src_components_scrollvelocity_useelementwidth",
-      "fromNode": "n_src_components_scrollvelocity",
-      "toNode": "n_src_components_scrollvelocity_useelementwidth",
-      "label": "contains [EXTRACTED]"
-    },
-    {
-      "id": "e_src_components_scrollvelocity_velocitytext_src_components_scrollvelocity_wrap",
-      "fromNode": "n_src_components_scrollvelocity_velocitytext",
-      "toNode": "n_src_components_scrollvelocity_wrap",
-      "label": "calls [EXTRACTED]"
-    },
-    {
-      "id": "e_src_components_scrollvelocity_src_components_scrollvelocity_velocitytext",
-      "fromNode": "n_src_components_scrollvelocity",
-      "toNode": "n_src_components_scrollvelocity_velocitytext",
-      "label": "contains [EXTRACTED]"
-    },
-    {
-      "id": "e_src_components_scrollvelocity_src_components_scrollvelocity_wrap",
-      "fromNode": "n_src_components_scrollvelocity",
-      "toNode": "n_src_components_scrollvelocity_wrap",
+      "id": "e_src_lib_utils_src_lib_utils_cn",
+      "fromNode": "n_src_lib_utils",
+      "toNode": "n_src_lib_utils_cn",
       "label": "contains [EXTRACTED]"
     },
     {
@@ -3445,21 +3405,9 @@
       "label": "contains [EXTRACTED]"
     },
     {
-      "id": "e_src_sections_skills_src_components_spotlightcard_spotlightcard",
-      "fromNode": "n_src_sections_skills",
-      "toNode": "n_src_components_spotlightcard_spotlightcard",
-      "label": "imports [EXTRACTED]"
-    },
-    {
       "id": "e_src_components_spotlightcard_src_components_spotlightcard_spotlightcard",
       "fromNode": "n_src_components_spotlightcard",
       "toNode": "n_src_components_spotlightcard_spotlightcard",
-      "label": "contains [EXTRACTED]"
-    },
-    {
-      "id": "e_src_lib_utils_src_lib_utils_cn",
-      "fromNode": "n_src_lib_utils",
-      "toNode": "n_src_lib_utils_cn",
       "label": "contains [EXTRACTED]"
     },
     {
@@ -3577,12 +3525,6 @@
       "label": "calls [EXTRACTED]"
     },
     {
-      "id": "e_src_sections_footer_footer_src_components_magnet_magnet",
-      "fromNode": "n_src_sections_footer_footer",
-      "toNode": "n_src_components_magnet_magnet",
-      "label": "calls [EXTRACTED]"
-    },
-    {
       "id": "e_src_sections_footer_src_components_magnet_magnet",
       "fromNode": "n_src_sections_footer",
       "toNode": "n_src_components_magnet_magnet",
@@ -3610,18 +3552,6 @@
       "id": "e_src_components_magnet_src_components_magnet_smoothstep",
       "fromNode": "n_src_components_magnet",
       "toNode": "n_src_components_magnet_smoothstep",
-      "label": "contains [EXTRACTED]"
-    },
-    {
-      "id": "e_src_app_src_sections_footer_footer",
-      "fromNode": "n_src_app",
-      "toNode": "n_src_sections_footer_footer",
-      "label": "imports [EXTRACTED]"
-    },
-    {
-      "id": "e_src_sections_footer_src_sections_footer_footer",
-      "fromNode": "n_src_sections_footer",
-      "toNode": "n_src_sections_footer_footer",
       "label": "contains [EXTRACTED]"
     },
     {
@@ -3754,6 +3684,84 @@
       "id": "e_src_components_decryptedtext_src_components_decryptedtext_isspace",
       "fromNode": "n_src_components_decryptedtext",
       "toNode": "n_src_components_decryptedtext_isspace",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_src_components_decryptedtext_src_components_decryptedtext_prefersreducedmotion",
+      "fromNode": "n_src_components_decryptedtext",
+      "toNode": "n_src_components_decryptedtext_prefersreducedmotion",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_src_components_decryptedtext_src_components_decryptedtext_readfont",
+      "fromNode": "n_src_components_decryptedtext",
+      "toNode": "n_src_components_decryptedtext_readfont",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_src_components_scrollvelocity_scrollvelocity_src_components_scrollvelocity_velocitytext",
+      "fromNode": "n_src_components_scrollvelocity_scrollvelocity",
+      "toNode": "n_src_components_scrollvelocity_velocitytext",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_src_sections_about_about_src_components_scrollvelocity_scrollvelocity",
+      "fromNode": "n_src_sections_about_about",
+      "toNode": "n_src_components_scrollvelocity_scrollvelocity",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_src_sections_about_src_components_scrollvelocity_scrollvelocity",
+      "fromNode": "n_src_sections_about",
+      "toNode": "n_src_components_scrollvelocity_scrollvelocity",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_src_components_scrollvelocity_src_components_scrollvelocity_scrollvelocity",
+      "fromNode": "n_src_components_scrollvelocity",
+      "toNode": "n_src_components_scrollvelocity_scrollvelocity",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_src_components_scrollvelocity_src_components_scrollvelocity_smootherstep",
+      "fromNode": "n_src_components_scrollvelocity",
+      "toNode": "n_src_components_scrollvelocity_smootherstep",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_src_components_scrollvelocity_velocitytext_src_components_scrollvelocity_useelementwidth",
+      "fromNode": "n_src_components_scrollvelocity_velocitytext",
+      "toNode": "n_src_components_scrollvelocity_useelementwidth",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_src_components_scrollvelocity_src_components_scrollvelocity_useelementwidth",
+      "fromNode": "n_src_components_scrollvelocity",
+      "toNode": "n_src_components_scrollvelocity_useelementwidth",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_src_components_scrollvelocity_velocitytext_src_components_scrollvelocity_wrap",
+      "fromNode": "n_src_components_scrollvelocity_velocitytext",
+      "toNode": "n_src_components_scrollvelocity_wrap",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_src_components_scrollvelocity_src_components_scrollvelocity_velocitytext",
+      "fromNode": "n_src_components_scrollvelocity",
+      "toNode": "n_src_components_scrollvelocity_velocitytext",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_src_components_scrollvelocity_src_components_scrollvelocity_wrap",
+      "fromNode": "n_src_components_scrollvelocity",
+      "toNode": "n_src_components_scrollvelocity_wrap",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_src_components_splittext_src_components_splittext_fontsareloaded",
+      "fromNode": "n_src_components_splittext",
+      "toNode": "n_src_components_splittext_fontsareloaded",
       "label": "contains [EXTRACTED]"
     }
   ]

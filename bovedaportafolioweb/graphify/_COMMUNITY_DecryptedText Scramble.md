@@ -34,7 +34,7 @@ SORT file.name ASC
 
 ## Connections to other communities
 - 7 edges to [[_COMMUNITY_App Shell & Sections]]
-- 1 edge to [[_COMMUNITY_ScrollVelocity Marquee]]
+- 1 edge to [[_COMMUNITY_Dev Toolchain]]
 
 ## Top bridge nodes
 - [[DecryptedText.tsx]] - degree 19, connects to 2 communities

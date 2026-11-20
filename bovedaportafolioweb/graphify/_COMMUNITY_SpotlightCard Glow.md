@@ -27,8 +27,8 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 4 edges to [[_COMMUNITY_App Shell & Sections]]
+- 3 edges to [[_COMMUNITY_App Shell & Sections]]
 
 ## Top bridge nodes
 - [[SpotlightCard.tsx]] - degree 11, connects to 1 community
-- [[SpotlightCard()]] - degree 5, connects to 1 community
+- [[SpotlightCard()]] - degree 4, connects to 1 community
