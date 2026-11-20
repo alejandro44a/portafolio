@@ -1,45 +1,33 @@
-import { Toaster } from '@/components/ui/sonner';
-import Navigation from './sections/Navigation';
-import Hero from './sections/Hero';
-import About from './sections/About';
-import Projects from './sections/Projects';
-import Experience from './sections/Experience';
-import Skills from './sections/Skills';
-import Education from './sections/Education';
-import Contact from './sections/Contact';
-import Footer from './sections/Footer';
+import { lazy, Suspense } from 'react';
+import ClickSpark from '@/components/ClickSpark';
+import Noise from '@/components/Noise';
+import TopBar from '@/sections/TopBar';
+import Hero from '@/sections/Hero';
+import About from '@/sections/About';
+import Work from '@/sections/Work';
+import Experience from '@/sections/Experience';
+import Skills from '@/sections/Skills';
+import Footer from '@/sections/Footer';
 
-function App() {
+// Three.js is heavy: the pet loads after the page is interactive
+const ClaudePet = lazy(() => import('@/pet/ClaudePet'));
+
+export default function App() {
   return (
-    <div className="min-h-screen bg-background text-foreground relative">
-      {/* Animated background */}
-      <div className="animated-bg" />
-      
-      {/* Floating particles */}
-      <div className="particles">
-        {[...Array(10)].map((_, i) => (
-          <div key={i} className="particle" />
-        ))}
-      </div>
-
-      {/* Main content */}
-      <div className="relative z-10">
-        <Navigation />
-        <main>
-          <Hero />
-          <About />
-          <Projects />
-          <Experience />
-          <Skills />
-          <Education />
-          <Contact />
-        </main>
-        <Footer />
-      </div>
-      
-      <Toaster position="bottom-right" />
-    </div>
+    <ClickSpark sparkColor="#d97757" sparkSize={9} sparkRadius={18} sparkCount={8}>
+      <TopBar />
+      <main>
+        <Hero />
+        <About />
+        <Work />
+        <Experience />
+        <Skills />
+      </main>
+      <Footer />
+      <Noise opacity={0.06} fixed zIndex={60} />
+      <Suspense fallback={null}>
+        <ClaudePet />
+      </Suspense>
+    </ClickSpark>
   );
 }
-
-export default App;

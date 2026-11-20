@@ -1,0 +1,8 @@
+# Images are project screenshots — no knowledge to extract, and vision extraction is costly
+public/
+dist/
+node_modules/
+.claude/
+.obsidian/
+bovedaportafolioweb/
+package-lock.json
