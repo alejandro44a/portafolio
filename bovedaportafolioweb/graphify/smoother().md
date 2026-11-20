@@ -14,6 +14,6 @@ tags:
 ## Connections
 - [[TiltedCard()]] - `calls` [EXTRACTED]
 - [[TiltedCard.tsx]] - `contains` [EXTRACTED]
-- [[clamp()_5]] - `calls` [EXTRACTED]
+- [[clamp()_4]] - `calls` [EXTRACTED]
 
 #graphify/code #graphify/EXTRACTED #community/TiltedCard_3D_Tilt

@@ -18,7 +18,7 @@ members: 15
 - [[TiltedCardLayer()]] - code - src/components/TiltedCard.tsx
 - [[TiltedCardLayerProps]] - code - src/components/TiltedCard.tsx
 - [[TiltedCardProps]] - code - src/components/TiltedCard.tsx
-- [[clamp()_5]] - code - src/components/TiltedCard.tsx
+- [[clamp()_4]] - code - src/components/TiltedCard.tsx
 - [[parseColor()_1]] - code - src/components/TiltedCard.tsx
 - [[smoother()]] - code - src/components/TiltedCard.tsx
 - [[step()]] - code - src/components/TiltedCard.tsx
@@ -32,8 +32,8 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 4 edges to [[_COMMUNITY_App Shell & Sections]]
+- 3 edges to [[_COMMUNITY_App Shell & Sections]]
 
 ## Top bridge nodes
 - [[TiltedCard.tsx]] - degree 16, connects to 1 community
-- [[TiltedCard()]] - degree 8, connects to 1 community
+- [[TiltedCard()]] - degree 7, connects to 1 community

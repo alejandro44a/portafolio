@@ -1,12 +1,12 @@
 ---
 source_file: "src/components/ScrollVelocity.tsx"
 type: "code"
-community: "ScrollVelocity Marquee"
+community: "App Shell & Sections"
 location: "L311"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/ScrollVelocity_Marquee
+  - community/App_Shell__Sections
 ---
 
 # ScrollVelocity()
@@ -17,4 +17,4 @@ tags:
 - [[ScrollVelocity.tsx]] - `contains` [EXTRACTED]
 - [[VelocityText()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/ScrollVelocity_Marquee
+#graphify/code #graphify/EXTRACTED #community/App_Shell__Sections

@@ -14,6 +14,6 @@ tags:
 ## Connections
 - [[ClickSpark]] - `calls` [EXTRACTED]
 - [[ClickSpark.tsx]] - `contains` [EXTRACTED]
-- [[clamp()_4]] - `calls` [EXTRACTED]
+- [[clamp()_3]] - `calls` [EXTRACTED]
 
 #graphify/code #graphify/EXTRACTED #community/ClickSpark_Effects

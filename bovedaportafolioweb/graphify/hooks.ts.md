@@ -15,6 +15,7 @@ tags:
 - [[About.tsx]] - `imports_from` [EXTRACTED]
 - [[Footer.tsx]] - `imports_from` [EXTRACTED]
 - [[Hero.tsx]] - `imports_from` [EXTRACTED]
+- [[ProjectCarousel.tsx]] - `imports_from` [EXTRACTED]
 - [[TopBar.tsx]] - `imports_from` [EXTRACTED]
 - [[Work.tsx]] - `imports_from` [EXTRACTED]
 - [[asset()]] - `contains` [EXTRACTED]

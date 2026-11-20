@@ -3,6 +3,7 @@
 @theme {
   --font-display: "Instrument Serif", ui-serif, Georgia, serif;
   --font-mono: "JetBrains Mono", ui-monospace, monospace;
+  --font-sans: "Inter Tight", ui-sans-serif, system-ui, sans-serif;
   --color-ink: #0b0b0c;
   --color-bone: #ecebe6;
   --color-ash: #8b8b8f;

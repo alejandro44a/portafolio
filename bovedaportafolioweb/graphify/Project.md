@@ -12,6 +12,7 @@ tags:
 # Project
 
 ## Connections
+- [[ProjectCarousel.tsx]] - `imports` [EXTRACTED]
 - [[Work.tsx]] - `imports` [EXTRACTED]
 - [[data.ts]] - `contains` [EXTRACTED]
 

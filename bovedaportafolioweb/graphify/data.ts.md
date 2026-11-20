@@ -17,6 +17,7 @@ tags:
 - [[Footer.tsx]] - `imports_from` [EXTRACTED]
 - [[Hero.tsx]] - `imports_from` [EXTRACTED]
 - [[Project]] - `contains` [EXTRACTED]
+- [[ProjectCarousel.tsx]] - `imports_from` [EXTRACTED]
 - [[Skills.tsx]] - `imports_from` [EXTRACTED]
 - [[Work.tsx]] - `imports_from` [EXTRACTED]
 - [[education]] - `contains` [EXTRACTED]

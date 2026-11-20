@@ -1,19 +1,21 @@
 ---
-source_file: "src/sections/Work.tsx"
+source_file: "src/components/ProjectCarousel.tsx"
 type: "code"
 community: "App Shell & Sections"
-location: "L12"
+location: "L31"
 tags:
   - graphify/code
   - graphify/EXTRACTED
   - community/App_Shell__Sections
 ---
 
-# paintCard()
+# ProjectCarousel()
 
 ## Connections
-- [[Work()]] - `indirect_call` [INFERRED]
-- [[Work.tsx]] - `contains` [EXTRACTED]
+- [[ProjectCarousel.tsx]] - `contains` [EXTRACTED]
+- [[Work()]] - `calls` [EXTRACTED]
+- [[Work.tsx]] - `imports` [EXTRACTED]
 - [[asset()]] - `calls` [EXTRACTED]
+- [[useCardSize()]] - `calls` [EXTRACTED]
 
 #graphify/code #graphify/EXTRACTED #community/App_Shell__Sections

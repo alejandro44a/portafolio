@@ -47,12 +47,11 @@ SORT file.name ASC
 ## Connections to other communities
 - 7 edges to [[_COMMUNITY_Dev Toolchain]]
 - 5 edges to [[_COMMUNITY_App Shell & Sections]]
+- 2 edges to [[_COMMUNITY_SplitText GSAP Reveal]]
 - 1 edge to [[_COMMUNITY_ScrollVelocity Marquee]]
-- 1 edge to [[_COMMUNITY_Community 15]]
-- 1 edge to [[_COMMUNITY_SplitText GSAP Reveal]]
 
 ## Top bridge nodes
-- [[dependencies]] - degree 11, connects to 4 communities
+- [[dependencies]] - degree 11, connects to 3 communities
 - [[react-dom]] - degree 3, connects to 2 communities
 - [[ClaudePet.tsx]] - degree 16, connects to 1 community
 - [[clsx]] - degree 3, connects to 1 community

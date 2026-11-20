@@ -43,3 +43,13 @@ Volver a [[Inicio]]
 - La sección [[src_sections_work_work|Work]] pasó de lista a **carrusel 3D en profundidad** con el componente `DepthCarousel` de React Bits.
 - `DepthCarousel` solo acepta imágenes, así que cada tarjeta se pinta en un `<canvas>` (imagen + degradado + número + título) y se pasa como data URL. Debajo, el botón *Ver proyecto* abre el modal existente.
 - Se retiró la vista previa que seguía al cursor.
+
+## Iteración 2: carrusel tipo cilindro, más fiel a lolawilde.com
+
+- `DepthCarousel` se reemplazó por un componente propio, [[src_components_projectcarousel|ProjectCarousel]]: cilindro 3D (`translateZ(-R) rotateY(dφ) translateZ(R)`), la central 14% más grande, las vecinas a ambos lados giran hacia el centro. Se mueve con arrastre, la rueda, las flechas del teclado o los botones; un click en la central abre el modal.
+- Tarjetas en HTML real (no canvas): número, título en Inter Tight extrabold, píldora "▶ Ver proyecto" en la central. Capturas a todo color (sin velo, `saturate(1.12)`); degradado solo arriba y abajo.
+- Título grande **PROYECTOS (03)** arriba a la izquierda, contador `01 / 03` con botones circulares, texto de ayuda abajo a la izquierda y un brillo terracota bajo el cilindro.
+- Con solo 3 proyectos el anillo los repite para llenar 9 posiciones.
+
+> [!tip] Siguiente paso sugerido
+> Añadir más proyectos (voleylab, omegastudios-web, predictor-futbol, cotizaciones CTR…) con capturas para que el cilindro no repita tarjetas.

@@ -1,1 +1,17 @@
-{"0": "App Shell & Sections", "1": "Dev Toolchain", "2": "Runtime Dependencies", "3": "shadcn & React Bits Config", "4": "Magnet Hover Physics", "5": "ClickSpark Effects", "6": "DecryptedText Scramble", "7": "SplitText GSAP Reveal", "8": "TiltedCard 3D Tilt", "9": "TypeScript Config", "10": "ScrollVelocity Marquee", "11": "LiquidChrome WebGL Shader", "12": "Noise Grain Overlay", "13": "SpotlightCard Glow", "14": "Brand Identity & Fonts"}
+{
+  "0": "App Shell & Sections",
+  "1": "Dev Toolchain",
+  "2": "Runtime Dependencies",
+  "3": "shadcn & React Bits Config",
+  "4": "Magnet Hover Physics",
+  "5": "ClickSpark Effects",
+  "6": "DecryptedText Scramble",
+  "7": "SplitText GSAP Reveal",
+  "8": "TiltedCard 3D Tilt",
+  "9": "TypeScript Config",
+  "10": "ScrollVelocity Marquee",
+  "11": "LiquidChrome WebGL Shader",
+  "12": "Noise Grain Overlay",
+  "13": "SpotlightCard Glow",
+  "14": "Brand Identity & Fonts"
+}

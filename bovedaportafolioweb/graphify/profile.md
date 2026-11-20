@@ -1,12 +1,12 @@
 ---
 source_file: "src/data.ts"
 type: "code"
-community: "App Shell & Sections"
+community: "Magnet Hover Physics"
 location: "L3"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/App_Shell__Sections
+  - community/Magnet_Hover_Physics
 ---
 
 # profile
@@ -17,4 +17,4 @@ tags:
 - [[data.ts]] - `contains` [EXTRACTED]
 - [[hooks.ts]] - `imports` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/App_Shell__Sections
+#graphify/code #graphify/EXTRACTED #community/Magnet_Hover_Physics

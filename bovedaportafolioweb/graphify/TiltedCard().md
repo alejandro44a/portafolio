@@ -14,8 +14,7 @@ tags:
 ## Connections
 - [[TiltedCard.tsx]] - `contains` [EXTRACTED]
 - [[Work()]] - `calls` [EXTRACTED]
-- [[Work.tsx]] - `imports` [EXTRACTED]
-- [[clamp()_5]] - `calls` [EXTRACTED]
+- [[clamp()_4]] - `calls` [EXTRACTED]
 - [[parseColor()_1]] - `calls` [EXTRACTED]
 - [[smoother()]] - `calls` [EXTRACTED]
 - [[step()]] - `calls` [EXTRACTED]

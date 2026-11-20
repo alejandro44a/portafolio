@@ -13,16 +13,14 @@ tags:
 
 ## Connections
 - [[App.tsx]] - `imports_from` [EXTRACTED]
-- [[DepthCarousel()]] - `imports` [EXTRACTED]
-- [[DepthCarousel.tsx]] - `imports_from` [EXTRACTED]
 - [[Project]] - `imports` [EXTRACTED]
-- [[TiltedCard()]] - `imports` [EXTRACTED]
+- [[ProjectCarousel()]] - `imports` [EXTRACTED]
+- [[ProjectCarousel.tsx]] - `imports_from` [EXTRACTED]
 - [[TiltedCard.tsx]] - `imports_from` [EXTRACTED]
 - [[Work()]] - `contains` [EXTRACTED]
 - [[asset()]] - `imports` [EXTRACTED]
 - [[data.ts]] - `imports_from` [EXTRACTED]
 - [[hooks.ts]] - `imports_from` [EXTRACTED]
-- [[paintCard()]] - `contains` [EXTRACTED]
 - [[projects]] - `imports` [EXTRACTED]
 - [[react]] - `imports_from` [EXTRACTED]
 

@@ -138,9 +138,9 @@
     "semantic_hash": ""
   },
   "src/sections/Work.tsx": {
-    "mtime": 1795210430.081182,
-    "seen": 1795210486.7106643,
-    "ast_hash": "c98177861b9ac901b6bde9e64712b775",
+    "mtime": 1795210940.5938723,
+    "seen": 1795211013.085912,
+    "ast_hash": "92d8fd9d30a6320ca7a75f8d98ebf87c",
     "semantic_hash": ""
   },
   "tsconfig.json": {
@@ -156,21 +156,21 @@
     "semantic_hash": ""
   },
   "index.html": {
-    "mtime": 1795208926.537743,
-    "seen": 1795210486.7106707,
-    "ast_hash": "847b36a317effe810ef29bfd078587d2",
-    "semantic_hash": ""
-  },
-  "src/components/DepthCarousel.tsx": {
-    "mtime": 1795210295.7655554,
-    "seen": 1795210486.7106292,
-    "ast_hash": "db05a3d0eaffb5641225681dd40eda4e",
+    "mtime": 1795210893.8890972,
+    "seen": 1795211013.085921,
+    "ast_hash": "0dc63c79ab59dd0dd7a6d7b1316b0958",
     "semantic_hash": ""
   },
   "CLAUDE.md": {
     "mtime": 1795208926.107164,
     "seen": 1795210486.7106688,
     "ast_hash": "ca5128389e16e173e20456649b4e712a",
+    "semantic_hash": ""
+  },
+  "src/components/ProjectCarousel.tsx": {
+    "mtime": 1795210969.338223,
+    "seen": 1795211013.0858757,
+    "ast_hash": "472f9c9cc5b57fc9a1e3eee941f65662",
     "semantic_hash": ""
   },
   "package-lock.json": {

@@ -14,9 +14,10 @@ tags:
 ## Connections
 - [[About()]] - `calls` [EXTRACTED]
 - [[About.tsx]] - `imports` [EXTRACTED]
+- [[ProjectCarousel()]] - `calls` [EXTRACTED]
+- [[ProjectCarousel.tsx]] - `imports` [EXTRACTED]
 - [[Work()]] - `calls` [EXTRACTED]
 - [[Work.tsx]] - `imports` [EXTRACTED]
 - [[hooks.ts]] - `contains` [EXTRACTED]
-- [[paintCard()]] - `calls` [EXTRACTED]
 
 #graphify/code #graphify/EXTRACTED #community/App_Shell__Sections

@@ -1,19 +1,20 @@
 ---
-source_file: "src/components/ClickSpark.tsx"
+source_file: "src/components/TiltedCard.tsx"
 type: "code"
-community: "ClickSpark Effects"
-location: "L91"
+community: "TiltedCard 3D Tilt"
+location: "L100"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/ClickSpark_Effects
+  - community/TiltedCard_3D_Tilt
 ---
 
 # clamp()
 
 ## Connections
-- [[ClickSpark]] - `calls` [EXTRACTED]
-- [[ClickSpark.tsx]] - `contains` [EXTRACTED]
-- [[smoothstep()_1]] - `calls` [EXTRACTED]
+- [[TiltedCard()]] - `calls` [EXTRACTED]
+- [[TiltedCard.tsx]] - `contains` [EXTRACTED]
+- [[parseColor()_1]] - `calls` [EXTRACTED]
+- [[smoother()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/ClickSpark_Effects
+#graphify/code #graphify/EXTRACTED #community/TiltedCard_3D_Tilt
